@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-24T15:11:15 IST" name="Suite" finished-at="2023-10-24T15:11:18 IST" duration-ms="3335">
+    <groups>
+    </groups>
+    <test started-at="2023-10-24T15:11:15 IST" name="Test" finished-at="2023-10-24T15:11:18 IST" duration-ms="3335">
+      <class name="soapreq.TestingProj">
+        <test-method signature="creditRequest()[pri:0, instance:soapreq.TestingProj@5386659f]" started-at="2023-10-24T15:11:15 IST" name="creditRequest" finished-at="2023-10-24T15:11:15 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- creditRequest -->
+        <test-method signature="refundRequest()[pri:0, instance:soapreq.TestingProj@5386659f]" started-at="2023-10-24T15:11:15 IST" name="refundRequest" finished-at="2023-10-24T15:11:15 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- refundRequest -->
+        <test-method signature="saleRequest()[pri:0, instance:soapreq.TestingProj@5386659f]" started-at="2023-10-24T15:11:15 IST" name="saleRequest" finished-at="2023-10-24T15:11:15 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saleRequest -->
+        <test-method signature="sessionRequest()[pri:0, instance:soapreq.TestingProj@5386659f]" started-at="2023-10-24T15:11:15 IST" name="sessionRequest" finished-at="2023-10-24T15:11:18 IST" duration-ms="2767" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sessionRequest -->
+      </class> <!-- soapreq.TestingProj -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

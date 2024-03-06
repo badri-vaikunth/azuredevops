@@ -1,0 +1,78 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:schemas-cybersource-com:transaction-data-1.{{WSDLVersion}}">
+    <soapenv:Header>
+        <wsse:Security soapenv:mustUnderstand="1" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+            <wsse:UsernameToken wsu:Id="UsernameToken-1" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+                <wsse:Username>thunes_cert_so</wsse:Username>
+                <wsse:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText">juB3g2V3sXCKQ5GMb3ERbqUhbTvgVnugNRNPZcd7YadH3yqPuSUdYoi4BajvoEb/S3lSKV1hmtZoLukVWYav78LwSr1250Z7cHvyDZLOAmTERfJubbTu4bvzrHI4uIDnSjnVrvIO6CUZOuo5QrmTEL6+BZEocjrcz8lkw35FRTwT7UnEcCZQ0AdVMZON/AUl/RsYSkMHbEbutLFeBQGb883NDJrsdIuHBnW2uH3XRy42AxId1r5H2VVdjd0g1Cd8nEcAYQW+8JiYEVHHksHPErr41OO+2GOrXwGCXxsjJJ+55lLKtNZqQdkpUIx6nyl2F+4nDhC3QHh7hwbs0qVrWA==</wsse:Password>
+            </wsse:UsernameToken>
+        </wsse:Security>
+    </soapenv:Header>
+    <soapenv:Body xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <requestMessage xmlns="urn:schemas-cybersource-com:transaction-data-1.211">
+            <merchantID>thunes_cert_so</merchantID>
+            <merchantReferenceCode>refnumb1234</merchantReferenceCode>
+            <billTo>
+                <firstName>Badri</firstName>
+                <lastName>R</lastName>
+                <street1>Bangalore</street1>
+                <city>CHENNAI</city>
+                <state>AR</state>
+                <postalCode>75001</postalCode>
+                <country>FR</country>
+                <phoneNumber>+33623456789</phoneNumber>
+                <email>test@thunes.com</email>
+            </billTo>
+            <shipTo>
+                <firstName></firstName>
+                <lastName></lastName>
+                <street1></street1>
+                <city></city>
+                <state></state>
+                <postalCode></postalCode>
+                <country></country>
+                <phoneNumber></phoneNumber>
+            </shipTo>
+            <item id="0">
+                <unitPrice>40</unitPrice>
+                <quantity>10</quantity>
+                <productCode>4564</productCode>
+                <productName>Mobile</productName>
+                <productSKU>testI</productSKU>
+                <totalAmount>400</totalAmount>
+                <productDescription>MOBILE</productDescription>
+            </item>
+            <item id="1">
+                <unitPrice>40</unitPrice>
+                <quantity>10</quantity>
+                <productCode>4565</productCode>
+                <productName>TV</productName>
+                <productSKU>testM</productSKU>
+                <totalAmount>400</totalAmount>
+                <productDescription>TV</productDescription>
+            </item>
+            <item id="2">
+                <unitPrice>40</unitPrice>
+                <quantity>10</quantity>
+                <productCode>4566</productCode>
+                <productName>Radio</productName>
+                <productSKU>testU</productSKU>
+                <totalAmount>400</totalAmount>
+                <productDescription>RADIO</productDescription>
+            </item>
+            <purchaseTotals>
+                <currency>EUR</currency>
+                <grandTotalAmount>1200</grandTotalAmount>
+            </purchaseTotals>
+            <merchantDefinedData>
+                <field1>CommercialOperationCode=PNF4P</field1>
+            </merchantDefinedData>
+            <apPaymentType>ONY</apPaymentType>
+            <apSessionsService run="true">
+                <cancelURL>https://www.test.com</cancelURL>
+                <successURL>https://www.test1.com</successURL>
+                <failureURL>https://www.test2.com</failureURL>
+                <sessionsType>N</sessionsType>
+            </apSessionsService>
+        </requestMessage>
+    </soapenv:Body>
+</soapenv:Envelope>

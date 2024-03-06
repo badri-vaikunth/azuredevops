@@ -1,0 +1,1835 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>AltPay Test Report</title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa -report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Altpay Automation Report</span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Mar 6, 2024 10:54:43 AM</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('category-view')">
+<a id="nav-category" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-tag"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
+<ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">P24Sale</a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="pass" test-id="1"
+          author=""
+          tag="P24Sale"
+          device="">
+          <div class="test-detail">
+            <p class="name">saleRequestWithEmptyApPaymentType</p>
+            <p class="text-sm">
+              <span>10:54:44 AM</span> / <span>00:00:02:458</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">saleRequestWithEmptyApPaymentType</h5>
+<span class='badge badge-success'>03.06.2024 10:54:44 AM</span>
+<span class='badge badge-danger'>03.06.2024 10:54:46 AM</span>
+<span class='badge badge-default'>00:00:02:458</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">P24Sale</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:54:46 AM</td>
+        <td>
+          saleRequestWithEmptyApPaymentType is Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:54:46 AM</td>
+        <td>
+          Endpoint is : https://sl73cgkapq067.visa.com:8443
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:54:46 AM</td>
+        <td>
+          Headers are : Content-Type=application/xml
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:54:46 AM</td>
+        <td>
+          Request is:<br> <textarea><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:schemas-cybersource-com:transaction-data-1.{{WSDLVersion}}">
+    <soapenv:Header>
+        <wsse:Security soapenv:mustUnderstand="1" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+            <wsse:UsernameToken wsu:Id="UsernameToken-1" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+                <wsse:Username>thunes_cert_so</wsse:Username>
+                <wsse:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText">juB3g2V3sXCKQ5GMb3ERbqUhbTvgVnugNRNPZcd7YadH3yqPuSUdYoi4BajvoEb/S3lSKV1hmtZoLukVWYav78LwSr1250Z7cHvyDZLOAmTERfJubbTu4bvzrHI4uIDnSjnVrvIO6CUZOuo5QrmTEL6+BZEocjrcz8lkw35FRTwT7UnEcCZQ0AdVMZON/AUl/RsYSkMHbEbutLFeBQGb883NDJrsdIuHBnW2uH3XRy42AxId1r5H2VVdjd0g1Cd8nEcAYQW+8JiYEVHHksHPErr41OO+2GOrXwGCXxsjJJ+55lLKtNZqQdkpUIx6nyl2F+4nDhC3QHh7hwbs0qVrWA==</wsse:Password>
+            </wsse:UsernameToken>
+        </wsse:Security>
+    </soapenv:Header>
+    <soapenv:Body xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <requestMessage xmlns="urn:schemas-cybersource-com:transaction-data-1.211">
+            <merchantID>thunes_cert_so</merchantID>
+            <merchantReferenceCode>refnumb1234</merchantReferenceCode>
+            <invoiceHeader>
+                <merchantDescriptor>Online Store</merchantDescriptor>
+            </invoiceHeader>
+            <billTo>
+                <firstName>Badri</firstName>
+                <lastName>R</lastName>
+                <street1>Bangalore</street1>
+                <city>CHENNAI</city>
+                <state>AR</state>
+                <postalCode>75001</postalCode>
+                <country>FR</country>
+                <phoneNumber>+33623456789</phoneNumber>
+                <email>test@thunes.com</email>
+            </billTo>
+            <shipTo>
+                <firstName>Badrinarayanan</firstName>
+                <lastName>Raj</lastName>
+                <street1>KR</street1>
+                <city>Bangalore</city>
+                <state>AR</state>
+                <postalCode>75001</postalCode>
+                <country>FR</country>
+                <phoneNumber>+33623456789</phoneNumber>
+            </shipTo>
+            <purchaseTotals>
+                <currency>PLN</currency>
+                <grandTotalAmount>20</grandTotalAmount>
+            </purchaseTotals>
+            <apPaymentType></apPaymentType>
+            <apSaleService run="true">
+                <cancelURL>https://www.redirect.url.html?action=cancel</cancelURL>
+                <successURL>https://www.redirect.url.html?action=success</successURL>
+                <failureURL>https://www.redirect.url.html?action=failure</failureURL>
+            </apSaleService>
+        </requestMessage>
+    </soapenv:Body>
+</soapenv:Envelope></textarea>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:54:46 AM</td>
+        <td>
+          Response is:<br><textarea><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <wsse:Security xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+      <wsu:Timestamp xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" wsu:Id="Timestamp-859587183">
+        <wsu:Created>2024-03-06T05:24:46.558Z</wsu:Created>
+      </wsu:Timestamp>
+    </wsse:Security>
+  </soap:Header>
+  <soap:Body>
+    <c:replyMessage xmlns:c="urn:schemas-cybersource-com:transaction-data-1.211">
+      <c:merchantReferenceCode>refnumb1234</c:merchantReferenceCode>
+      <c:requestID>7097026864746637503095</c:requestID>
+      <c:decision>REJECT</c:decision>
+      <c:reasonCode>102</c:reasonCode>
+      <c:invalidField>(ap_payment_type)</c:invalidField>
+      <c:requestToken>AxjjLwSTgLsIa9PDkyp3ANhRLrAkEPnsi/oH8KM3k/yzjm8h2f4A8zrH</c:requestToken>
+      <c:apSaleReply>
+        <c:reasonCode>102</c:reasonCode>
+      </c:apSaleReply>
+      <c:reserved>
+        <ics_message xmlns="urn:schemas-cybersource-com:transaction-data:ics">
+          <ap_sale.reason_code>102</ap_sale.reason_code>
+          <invalidfield0>ap_payment_type</invalidfield0>
+          <merchant_ref_number>refnumb1234</merchant_ref_number>
+          <ap_sale_rmsg>The field is invalid: ap_payment_type.  is not supported ap_payment_type.</ap_sale_rmsg>
+          <request_id>7097026864746637503095</request_id>
+          <ap_sale_rcode>0</ap_sale_rcode>
+          <ics_rcode>0</ics_rcode>
+          <ap_sale_return_code>1002013</ap_sale_return_code>
+          <ics_decision_reason_code>102</ics_decision_reason_code>
+          <ap_sale_rflag>DINVALIDDATA</ap_sale_rflag>
+          <ics_rflag>DINVALIDDATA</ics_rflag>
+          <ics_return_code>1000000</ics_return_code>
+          <request_token>AxjjLwSTgLsIa9PDkyp3ANhRLrAkEPnsi/oH8KM3k/yzjm8h2f4A8zrH</request_token>
+          <ics_rmsg>The field is invalid: ap_payment_type.  is not supported ap_payment_type.</ics_rmsg>
+          <parsed_field_names/>
+        </ics_message>
+      </c:reserved>
+    </c:replyMessage>
+  </soap:Body>
+</soap:Envelope></textarea>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="2"
+          author=""
+          tag="P24Sale"
+          device="">
+          <div class="test-detail">
+            <p class="name">saleRequestWithEmptyBillToFields</p>
+            <p class="text-sm">
+              <span>10:54:46 AM</span> / <span>00:00:01:697</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">saleRequestWithEmptyBillToFields</h5>
+<span class='badge badge-success'>03.06.2024 10:54:46 AM</span>
+<span class='badge badge-danger'>03.06.2024 10:54:48 AM</span>
+<span class='badge badge-default'>00:00:01:697</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">P24Sale</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>10:54:48 AM</td>
+        <td>
+          saleRequestWithEmptyBillToFields is Failed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>10:54:48 AM</td>
+        <td>
+          java.lang.AssertionError: expected [REJECT] but found [ACCEPT]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>10:54:48 AM</td>
+        <td>
+          [org.testng.Assert.fail(Assert.java:111), org.testng.Assert.failNotEquals(Assert.java:1578), org.testng.Assert.assertEqualsImpl(Assert.java:150), org.testng.Assert.assertEquals(Assert.java:132), org.testng.Assert.assertEquals(Assert.java:656), org.testng.Assert.assertEquals(Assert.java:666), soapreq.thunes.P24Sale.saleRequestWithEmptyBillToFields(P24Sale.java:148), java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method), java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62), java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43), java.base/java.lang.reflect.Method.invoke(Method.java:566), org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139), org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664), org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227), org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50), org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957), org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200), org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148), org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128), java.base/java.util.ArrayList.forEach(ArrayList.java:1541), org.testng.TestRunner.privateRun(TestRunner.java:848), org.testng.TestRunner.run(TestRunner.java:621), org.testng.SuiteRunner.runTest(SuiteRunner.java:443), org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481), org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58), java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264), java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128), java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628), java.base/java.lang.Thread.run(Thread.java:829)]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>10:54:48 AM</td>
+        <td>
+          Endpoint is : https://sl73cgkapq067.visa.com:8443
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>10:54:48 AM</td>
+        <td>
+          Headers are : Content-Type=application/xml
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>10:54:48 AM</td>
+        <td>
+          Request is:<br> <textarea><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:schemas-cybersource-com:transaction-data-1.{{WSDLVersion}}">
+    <soapenv:Header>
+        <wsse:Security soapenv:mustUnderstand="1" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+            <wsse:UsernameToken wsu:Id="UsernameToken-1" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+                <wsse:Username>thunes_cert_so</wsse:Username>
+                <wsse:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText">juB3g2V3sXCKQ5GMb3ERbqUhbTvgVnugNRNPZcd7YadH3yqPuSUdYoi4BajvoEb/S3lSKV1hmtZoLukVWYav78LwSr1250Z7cHvyDZLOAmTERfJubbTu4bvzrHI4uIDnSjnVrvIO6CUZOuo5QrmTEL6+BZEocjrcz8lkw35FRTwT7UnEcCZQ0AdVMZON/AUl/RsYSkMHbEbutLFeBQGb883NDJrsdIuHBnW2uH3XRy42AxId1r5H2VVdjd0g1Cd8nEcAYQW+8JiYEVHHksHPErr41OO+2GOrXwGCXxsjJJ+55lLKtNZqQdkpUIx6nyl2F+4nDhC3QHh7hwbs0qVrWA==</wsse:Password>
+            </wsse:UsernameToken>
+        </wsse:Security>
+    </soapenv:Header>
+    <soapenv:Body xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <requestMessage xmlns="urn:schemas-cybersource-com:transaction-data-1.211">
+            <merchantID>thunes_cert_so</merchantID>
+            <merchantReferenceCode>refnumb1234</merchantReferenceCode>
+            <invoiceHeader>
+                <merchantDescriptor>Online Store</merchantDescriptor>
+            </invoiceHeader>
+            <billTo>
+                <firstName></firstName>
+                <lastName></lastName>
+                <street1></street1>
+                <city></city>
+                <state></state>
+                <postalCode></postalCode>
+                <country></country>
+                <phoneNumber></phoneNumber>
+                <email></email>
+            </billTo>
+            <shipTo>
+                <firstName>Badrinarayanan</firstName>
+                <lastName>Raj</lastName>
+                <street1>KR</street1>
+                <city>Bangalore</city>
+                <state>AR</state>
+                <postalCode>75001</postalCode>
+                <country>FR</country>
+                <phoneNumber>+33623456789</phoneNumber>
+            </shipTo>
+            <purchaseTotals>
+                <currency>PLN</currency>
+                <grandTotalAmount>20</grandTotalAmount>
+            </purchaseTotals>
+            <apPaymentType>PTT</apPaymentType>
+            <apSaleService run="true">
+                <cancelURL>https://www.redirect.url.html?action=cancel</cancelURL>
+                <successURL>https://www.redirect.url.html?action=success</successURL>
+                <failureURL>https://www.redirect.url.html?action=failure</failureURL>
+            </apSaleService>
+        </requestMessage>
+    </soapenv:Body>
+</soapenv:Envelope></textarea>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>10:54:48 AM</td>
+        <td>
+          Response is:<br><textarea><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <wsse:Security xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+      <wsu:Timestamp xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" wsu:Id="Timestamp-473832003">
+        <wsu:Created>2024-03-06T05:24:48.458Z</wsu:Created>
+      </wsu:Timestamp>
+    </wsse:Security>
+  </soap:Header>
+  <soap:Body>
+    <c:replyMessage xmlns:c="urn:schemas-cybersource-com:transaction-data-1.211">
+      <c:merchantReferenceCode>refnumb1234</c:merchantReferenceCode>
+      <c:requestID>7097026882406637603095</c:requestID>
+      <c:decision>ACCEPT</c:decision>
+      <c:reasonCode>100</c:reasonCode>
+      <c:requestToken>AxjnrwSTgLsIe+ONm4kXANgYwaUqrCo4iyoMyOol1gSCIj2Rf0D+GGTyf5ZxzeQ7P9JwF2EPfHGzcSLgwDxY</c:requestToken>
+      <c:purchaseTotals>
+        <c:currency>PLN</c:currency>
+      </c:purchaseTotals>
+      <c:apSaleReply>
+        <c:reasonCode>100</c:reasonCode>
+        <c:paymentStatus>pending</c:paymentStatus>
+        <c:responseCode>00001</c:responseCode>
+        <c:merchantURL>https://merchant.redirect.com/url.do?param_utf=%27%22%3C%3E%20%E6%B8%AC%E8%A9%A6%E6%B8%AC&amp;param_url=https%3A%2F%2Fwww.abc.com&amp;param_special=+@#%~_&amp;sign=fdaa1df42b6260a10e2e3f1c0fc87862</c:merchantURL>
+        <c:processorTransactionID>2016011808153910011808153910TR</c:processorTransactionID>
+        <c:reconciliationID>04RU0T8EJALG</c:reconciliationID>
+        <c:amount>20.00</c:amount>
+        <c:processorResponse>00001</c:processorResponse>
+        <c:dateTime>2024-03-06T05:24:48Z</c:dateTime>
+      </c:apSaleReply>
+      <c:reserved>
+        <ics_message xmlns="urn:schemas-cybersource-com:transaction-data:ics">
+          <ap_sale_processor_transaction_id>2016011808153910011808153910TR</ap_sale_processor_transaction_id>
+          <ap_sale_date_time>2024-03-06T052448Z</ap_sale_date_time>
+          <ics_rcode>1</ics_rcode>
+          <ics_rmsg>Request was processed successfully.</ics_rmsg>
+          <ap_sale_return_code>1900000</ap_sale_return_code>
+          <ap_sale_processor_response>00001</ap_sale_processor_response>
+          <ap_sale_response_code>00001</ap_sale_response_code>
+          <ap_sale_rflag>SOK</ap_sale_rflag>
+          <ap_sale_rmsg>Request was processed successfully.</ap_sale_rmsg>
+          <ap_sale_status>PENDING</ap_sale_status>
+          <ap_sale_amount>20.00</ap_sale_amount>
+          <ap_sale_merchant_url>https://merchant.redirect.com/url.do?param_utf=%27%22%3C%3E%20%E6%B8%AC%E8%A9%A6%E6%B8%AC&amp;param_url=https%3A%2F%2Fwww.abc.com&amp;param_special=+@#%~_&amp;sign=fdaa1df42b6260a10e2e3f1c0fc87862</ap_sale_merchant_url>
+          <ics_return_code>1000000</ics_return_code>
+          <ap_sale_rcode>1</ap_sale_rcode>
+          <request_id>7097026882406637603095</request_id>
+          <ap_sale_payment_status>pending</ap_sale_payment_status>
+          <ap_sale.reason_code>100</ap_sale.reason_code>
+          <currency>PLN</currency>
+          <request_token>AxjnrwSTgLsIe+ONm4kXANgYwaUqrCo4iyoMyOol1gSCIj2Rf0D+GGTyf5ZxzeQ7P9JwF2EPfHGzcSLgwDxY</request_token>
+          <ics_decision_reason_code>100</ics_decision_reason_code>
+          <ics_rflag>SOK</ics_rflag>
+          <ap_sale_trans_ref_no>04RU0T8EJALG</ap_sale_trans_ref_no>
+          <merchant_ref_number>refnumb1234</merchant_ref_number>
+        </ics_message>
+      </c:reserved>
+    </c:replyMessage>
+  </soap:Body>
+</soap:Envelope></textarea>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="3"
+          author=""
+          tag="P24Sale"
+          device="">
+          <div class="test-detail">
+            <p class="name">saleRequestWithEmptyCurrency</p>
+            <p class="text-sm">
+              <span>10:54:48 AM</span> / <span>00:00:01:371</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">saleRequestWithEmptyCurrency</h5>
+<span class='badge badge-success'>03.06.2024 10:54:48 AM</span>
+<span class='badge badge-danger'>03.06.2024 10:54:49 AM</span>
+<span class='badge badge-default'>00:00:01:371</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">P24Sale</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:54:49 AM</td>
+        <td>
+          saleRequestWithEmptyCurrency is Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:54:49 AM</td>
+        <td>
+          Endpoint is : https://sl73cgkapq067.visa.com:8443
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:54:49 AM</td>
+        <td>
+          Headers are : Content-Type=application/xml
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:54:49 AM</td>
+        <td>
+          Request is:<br> <textarea><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:schemas-cybersource-com:transaction-data-1.{{WSDLVersion}}">
+    <soapenv:Header>
+        <wsse:Security soapenv:mustUnderstand="1" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+            <wsse:UsernameToken wsu:Id="UsernameToken-1" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+                <wsse:Username>thunes_cert_so</wsse:Username>
+                <wsse:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText">juB3g2V3sXCKQ5GMb3ERbqUhbTvgVnugNRNPZcd7YadH3yqPuSUdYoi4BajvoEb/S3lSKV1hmtZoLukVWYav78LwSr1250Z7cHvyDZLOAmTERfJubbTu4bvzrHI4uIDnSjnVrvIO6CUZOuo5QrmTEL6+BZEocjrcz8lkw35FRTwT7UnEcCZQ0AdVMZON/AUl/RsYSkMHbEbutLFeBQGb883NDJrsdIuHBnW2uH3XRy42AxId1r5H2VVdjd0g1Cd8nEcAYQW+8JiYEVHHksHPErr41OO+2GOrXwGCXxsjJJ+55lLKtNZqQdkpUIx6nyl2F+4nDhC3QHh7hwbs0qVrWA==</wsse:Password>
+            </wsse:UsernameToken>
+        </wsse:Security>
+    </soapenv:Header>
+    <soapenv:Body xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <requestMessage xmlns="urn:schemas-cybersource-com:transaction-data-1.211">
+            <merchantID>thunes_cert_so</merchantID>
+            <merchantReferenceCode>refnumb1234</merchantReferenceCode>
+            <invoiceHeader>
+                <merchantDescriptor>Online Store</merchantDescriptor>
+            </invoiceHeader>
+            <billTo>
+                <firstName>Badri</firstName>
+                <lastName>R</lastName>
+                <street1>Bangalore</street1>
+                <city>CHENNAI</city>
+                <state>AR</state>
+                <postalCode>75001</postalCode>
+                <country>FR</country>
+                <phoneNumber>+33623456789</phoneNumber>
+                <email>test@thunes.com</email>
+            </billTo>
+            <shipTo>
+                <firstName>Badrinarayanan</firstName>
+                <lastName>Raj</lastName>
+                <street1>KR</street1>
+                <city>Bangalore</city>
+                <state>AR</state>
+                <postalCode>75001</postalCode>
+                <country>FR</country>
+                <phoneNumber>+33623456789</phoneNumber>
+            </shipTo>
+            <purchaseTotals>
+                <currency></currency>
+                <grandTotalAmount>20</grandTotalAmount>
+            </purchaseTotals>
+            <apPaymentType>PTT</apPaymentType>
+            <apSaleService run="true">
+                <cancelURL>https://www.redirect.url.html?action=cancel</cancelURL>
+                <successURL>https://www.redirect.url.html?action=success</successURL>
+                <failureURL>https://www.redirect.url.html?action=failure</failureURL>
+            </apSaleService>
+        </requestMessage>
+    </soapenv:Body>
+</soapenv:Envelope></textarea>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:54:49 AM</td>
+        <td>
+          Response is:<br><textarea><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <wsse:Security xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+      <wsu:Timestamp xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" wsu:Id="Timestamp-1427221502">
+        <wsu:Created>2024-03-06T05:24:49.848Z</wsu:Created>
+      </wsu:Timestamp>
+    </wsse:Security>
+  </soap:Header>
+  <soap:Body>
+    <c:replyMessage xmlns:c="urn:schemas-cybersource-com:transaction-data-1.211">
+      <c:merchantReferenceCode>refnumb1234</c:merchantReferenceCode>
+      <c:requestID>7097026897746637703095</c:requestID>
+      <c:decision>REJECT</c:decision>
+      <c:reasonCode>101</c:reasonCode>
+      <c:missingField>c:purchaseTotals/c:currency</c:missingField>
+      <c:requestToken>AxijrwSTgLsIidcs3Ue3ANhRLrAkERQv6B/CjL5P8s45vIdn+k4C7CInXLN1HtwAoRmF</c:requestToken>
+      <c:apSaleReply>
+        <c:reasonCode>101</c:reasonCode>
+      </c:apSaleReply>
+      <c:reserved>
+        <ics_message xmlns="urn:schemas-cybersource-com:transaction-data:ics">
+          <ap_sale.reason_code>101</ap_sale.reason_code>
+          <merchant_ref_number>refnumb1234</merchant_ref_number>
+          <ap_sale_rmsg>The request data did not pass the required fields check for this application: [currency]</ap_sale_rmsg>
+          <request_id>7097026897746637703095</request_id>
+          <missingfield0>currency</missingfield0>
+          <ap_sale_rcode>0</ap_sale_rcode>
+          <ics_rcode>0</ics_rcode>
+          <ap_sale_return_code>1002002</ap_sale_return_code>
+          <ics_decision_reason_code>101</ics_decision_reason_code>
+          <ap_sale_rflag>DMISSINGFIELD</ap_sale_rflag>
+          <ics_rflag>DMISSINGFIELD</ics_rflag>
+          <ics_return_code>1000000</ics_return_code>
+          <request_token>AxijrwSTgLsIidcs3Ue3ANhRLrAkERQv6B/CjL5P8s45vIdn+k4C7CInXLN1HtwAoRmF</request_token>
+          <ics_rmsg>The request data did not pass the required fields check for this application: [currency]</ics_rmsg>
+          <parsed_field_names/>
+        </ics_message>
+      </c:reserved>
+    </c:replyMessage>
+  </soap:Body>
+</soap:Envelope></textarea>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="4"
+          author=""
+          tag="P24Sale"
+          device="">
+          <div class="test-detail">
+            <p class="name">saleRequestWithEmptyShipToFields</p>
+            <p class="text-sm">
+              <span>10:54:49 AM</span> / <span>00:00:01:774</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">saleRequestWithEmptyShipToFields</h5>
+<span class='badge badge-success'>03.06.2024 10:54:49 AM</span>
+<span class='badge badge-danger'>03.06.2024 10:54:51 AM</span>
+<span class='badge badge-default'>00:00:01:774</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=4</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">P24Sale</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>10:54:51 AM</td>
+        <td>
+          saleRequestWithEmptyShipToFields is Failed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>10:54:51 AM</td>
+        <td>
+          java.lang.AssertionError: expected [REJECT] but found [ACCEPT]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>10:54:51 AM</td>
+        <td>
+          [org.testng.Assert.fail(Assert.java:111), org.testng.Assert.failNotEquals(Assert.java:1578), org.testng.Assert.assertEqualsImpl(Assert.java:150), org.testng.Assert.assertEquals(Assert.java:132), org.testng.Assert.assertEquals(Assert.java:656), org.testng.Assert.assertEquals(Assert.java:666), soapreq.thunes.P24Sale.saleRequestWithEmptyShipToFields(P24Sale.java:164), java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method), java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62), java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43), java.base/java.lang.reflect.Method.invoke(Method.java:566), org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139), org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664), org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227), org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50), org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957), org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200), org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148), org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128), java.base/java.util.ArrayList.forEach(ArrayList.java:1541), org.testng.TestRunner.privateRun(TestRunner.java:848), org.testng.TestRunner.run(TestRunner.java:621), org.testng.SuiteRunner.runTest(SuiteRunner.java:443), org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481), org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58), java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264), java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128), java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628), java.base/java.lang.Thread.run(Thread.java:829)]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>10:54:51 AM</td>
+        <td>
+          Endpoint is : https://sl73cgkapq067.visa.com:8443
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>10:54:51 AM</td>
+        <td>
+          Headers are : Content-Type=application/xml
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>10:54:51 AM</td>
+        <td>
+          Request is:<br> <textarea><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:schemas-cybersource-com:transaction-data-1.{{WSDLVersion}}">
+    <soapenv:Header>
+        <wsse:Security soapenv:mustUnderstand="1" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+            <wsse:UsernameToken wsu:Id="UsernameToken-1" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+                <wsse:Username>thunes_cert_so</wsse:Username>
+                <wsse:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText">juB3g2V3sXCKQ5GMb3ERbqUhbTvgVnugNRNPZcd7YadH3yqPuSUdYoi4BajvoEb/S3lSKV1hmtZoLukVWYav78LwSr1250Z7cHvyDZLOAmTERfJubbTu4bvzrHI4uIDnSjnVrvIO6CUZOuo5QrmTEL6+BZEocjrcz8lkw35FRTwT7UnEcCZQ0AdVMZON/AUl/RsYSkMHbEbutLFeBQGb883NDJrsdIuHBnW2uH3XRy42AxId1r5H2VVdjd0g1Cd8nEcAYQW+8JiYEVHHksHPErr41OO+2GOrXwGCXxsjJJ+55lLKtNZqQdkpUIx6nyl2F+4nDhC3QHh7hwbs0qVrWA==</wsse:Password>
+            </wsse:UsernameToken>
+        </wsse:Security>
+    </soapenv:Header>
+    <soapenv:Body xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <requestMessage xmlns="urn:schemas-cybersource-com:transaction-data-1.211">
+            <merchantID>thunes_cert_so</merchantID>
+            <merchantReferenceCode>refnumb1234</merchantReferenceCode>
+            <invoiceHeader>
+                <merchantDescriptor>Online Store</merchantDescriptor>
+            </invoiceHeader>
+            <billTo>
+                <firstName>Badri</firstName>
+                <lastName>R</lastName>
+                <street1>Bangalore</street1>
+                <city>CHENNAI</city>
+                <state>AR</state>
+                <postalCode>75001</postalCode>
+                <country>FR</country>
+                <phoneNumber>+33623456789</phoneNumber>
+                <email>test@thunes.com</email>
+            </billTo>
+            <shipTo>
+                <firstName></firstName>
+                <lastName></lastName>
+                <street1></street1>
+                <city></city>
+                <state></state>
+                <postalCode></postalCode>
+                <country></country>
+                <phoneNumber></phoneNumber>
+            </shipTo>
+            <purchaseTotals>
+                <currency>PLN</currency>
+                <grandTotalAmount>20</grandTotalAmount>
+            </purchaseTotals>
+            <apPaymentType>PTT</apPaymentType>
+            <apSaleService run="true">
+                <cancelURL>https://www.redirect.url.html?action=cancel</cancelURL>
+                <successURL>https://www.redirect.url.html?action=success</successURL>
+                <failureURL>https://www.redirect.url.html?action=failure</failureURL>
+            </apSaleService>
+        </requestMessage>
+    </soapenv:Body>
+</soapenv:Envelope></textarea>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>10:54:51 AM</td>
+        <td>
+          Response is:<br><textarea><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <wsse:Security xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+      <wsu:Timestamp xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" wsu:Id="Timestamp-82275042">
+        <wsu:Created>2024-03-06T05:24:51.581Z</wsu:Created>
+      </wsu:Timestamp>
+    </wsse:Security>
+  </soap:Header>
+  <soap:Body>
+    <c:replyMessage xmlns:c="urn:schemas-cybersource-com:transaction-data-1.211">
+      <c:merchantReferenceCode>refnumb1234</c:merchantReferenceCode>
+      <c:requestID>7097026910776637803095</c:requestID>
+      <c:decision>ACCEPT</c:decision>
+      <c:reasonCode>100</c:reasonCode>
+      <c:requestToken>AxjnrwSTgLsIlbD1ZEpXANgYwaUqrCo4iyoMyQol1gSCJX2Rf0D+GGTyf5ZxzeQ7P9JwF2ESth6siUrg2SI6</c:requestToken>
+      <c:purchaseTotals>
+        <c:currency>PLN</c:currency>
+      </c:purchaseTotals>
+      <c:apSaleReply>
+        <c:reasonCode>100</c:reasonCode>
+        <c:paymentStatus>pending</c:paymentStatus>
+        <c:responseCode>00001</c:responseCode>
+        <c:merchantURL>https://merchant.redirect.com/url.do?param_utf=%27%22%3C%3E%20%E6%B8%AC%E8%A9%A6%E6%B8%AC&amp;param_url=https%3A%2F%2Fwww.abc.com&amp;param_special=+@#%~_&amp;sign=fdaa1df42b6260a10e2e3f1c0fc87862</c:merchantURL>
+        <c:processorTransactionID>2016011808153910011808153910TR</c:processorTransactionID>
+        <c:reconciliationID>04RU0T8EJALH</c:reconciliationID>
+        <c:amount>20.00</c:amount>
+        <c:processorResponse>00001</c:processorResponse>
+        <c:dateTime>2024-03-06T05:24:51Z</c:dateTime>
+      </c:apSaleReply>
+      <c:reserved>
+        <ics_message xmlns="urn:schemas-cybersource-com:transaction-data:ics">
+          <ap_sale_processor_transaction_id>2016011808153910011808153910TR</ap_sale_processor_transaction_id>
+          <ap_sale_date_time>2024-03-06T052451Z</ap_sale_date_time>
+          <ics_rcode>1</ics_rcode>
+          <ics_rmsg>Request was processed successfully.</ics_rmsg>
+          <ap_sale_return_code>1900000</ap_sale_return_code>
+          <ap_sale_processor_response>00001</ap_sale_processor_response>
+          <ap_sale_response_code>00001</ap_sale_response_code>
+          <ap_sale_rflag>SOK</ap_sale_rflag>
+          <ap_sale_rmsg>Request was processed successfully.</ap_sale_rmsg>
+          <ap_sale_status>PENDING</ap_sale_status>
+          <ap_sale_amount>20.00</ap_sale_amount>
+          <ap_sale_merchant_url>https://merchant.redirect.com/url.do?param_utf=%27%22%3C%3E%20%E6%B8%AC%E8%A9%A6%E6%B8%AC&amp;param_url=https%3A%2F%2Fwww.abc.com&amp;param_special=+@#%~_&amp;sign=fdaa1df42b6260a10e2e3f1c0fc87862</ap_sale_merchant_url>
+          <ics_return_code>1000000</ics_return_code>
+          <ap_sale_rcode>1</ap_sale_rcode>
+          <request_id>7097026910776637803095</request_id>
+          <ap_sale_payment_status>pending</ap_sale_payment_status>
+          <ap_sale.reason_code>100</ap_sale.reason_code>
+          <currency>PLN</currency>
+          <request_token>AxjnrwSTgLsIlbD1ZEpXANgYwaUqrCo4iyoMyQol1gSCJX2Rf0D+GGTyf5ZxzeQ7P9JwF2ESth6siUrg2SI6</request_token>
+          <ics_decision_reason_code>100</ics_decision_reason_code>
+          <ics_rflag>SOK</ics_rflag>
+          <ap_sale_trans_ref_no>04RU0T8EJALH</ap_sale_trans_ref_no>
+          <merchant_ref_number>refnumb1234</merchant_ref_number>
+        </ics_message>
+      </c:reserved>
+    </c:replyMessage>
+  </soap:Body>
+</soap:Envelope></textarea>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="5"
+          author=""
+          tag="P24Sale"
+          device="">
+          <div class="test-detail">
+            <p class="name">saleRequestWithInvalidCurrency</p>
+            <p class="text-sm">
+              <span>10:54:51 AM</span> / <span>00:00:01:916</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">saleRequestWithInvalidCurrency</h5>
+<span class='badge badge-success'>03.06.2024 10:54:51 AM</span>
+<span class='badge badge-danger'>03.06.2024 10:54:53 AM</span>
+<span class='badge badge-default'>00:00:01:916</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=5</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">P24Sale</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:54:53 AM</td>
+        <td>
+          saleRequestWithInvalidCurrency is Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:54:53 AM</td>
+        <td>
+          Endpoint is : https://sl73cgkapq067.visa.com:8443
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:54:53 AM</td>
+        <td>
+          Headers are : Content-Type=application/xml
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:54:53 AM</td>
+        <td>
+          Request is:<br> <textarea><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:schemas-cybersource-com:transaction-data-1.{{WSDLVersion}}">
+    <soapenv:Header>
+        <wsse:Security soapenv:mustUnderstand="1" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+            <wsse:UsernameToken wsu:Id="UsernameToken-1" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+                <wsse:Username>thunes_cert_so</wsse:Username>
+                <wsse:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText">juB3g2V3sXCKQ5GMb3ERbqUhbTvgVnugNRNPZcd7YadH3yqPuSUdYoi4BajvoEb/S3lSKV1hmtZoLukVWYav78LwSr1250Z7cHvyDZLOAmTERfJubbTu4bvzrHI4uIDnSjnVrvIO6CUZOuo5QrmTEL6+BZEocjrcz8lkw35FRTwT7UnEcCZQ0AdVMZON/AUl/RsYSkMHbEbutLFeBQGb883NDJrsdIuHBnW2uH3XRy42AxId1r5H2VVdjd0g1Cd8nEcAYQW+8JiYEVHHksHPErr41OO+2GOrXwGCXxsjJJ+55lLKtNZqQdkpUIx6nyl2F+4nDhC3QHh7hwbs0qVrWA==</wsse:Password>
+            </wsse:UsernameToken>
+        </wsse:Security>
+    </soapenv:Header>
+    <soapenv:Body xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <requestMessage xmlns="urn:schemas-cybersource-com:transaction-data-1.211">
+            <merchantID>thunes_cert_so</merchantID>
+            <merchantReferenceCode>refnumb1234</merchantReferenceCode>
+            <invoiceHeader>
+                <merchantDescriptor>Online Store</merchantDescriptor>
+            </invoiceHeader>
+            <billTo>
+                <firstName>Badri</firstName>
+                <lastName>R</lastName>
+                <street1>Bangalore</street1>
+                <city>CHENNAI</city>
+                <state>AR</state>
+                <postalCode>75001</postalCode>
+                <country>FR</country>
+                <phoneNumber>+33623456789</phoneNumber>
+                <email>test@thunes.com</email>
+            </billTo>
+            <shipTo>
+                <firstName>Badrinarayanan</firstName>
+                <lastName>Raj</lastName>
+                <street1>KR</street1>
+                <city>Bangalore</city>
+                <state>AR</state>
+                <postalCode>75001</postalCode>
+                <country>FR</country>
+                <phoneNumber>+33623456789</phoneNumber>
+            </shipTo>
+            <purchaseTotals>
+                <currency>ABC</currency>
+                <grandTotalAmount>20</grandTotalAmount>
+            </purchaseTotals>
+            <apPaymentType>PTT</apPaymentType>
+            <apSaleService run="true">
+                <cancelURL>https://www.redirect.url.html?action=cancel</cancelURL>
+                <successURL>https://www.redirect.url.html?action=success</successURL>
+                <failureURL>https://www.redirect.url.html?action=failure</failureURL>
+            </apSaleService>
+        </requestMessage>
+    </soapenv:Body>
+</soapenv:Envelope></textarea>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:54:53 AM</td>
+        <td>
+          Response is:<br><textarea><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <wsse:Security xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+      <wsu:Timestamp xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" wsu:Id="Timestamp-280387641">
+        <wsu:Created>2024-03-06T05:24:53.454Z</wsu:Created>
+      </wsu:Timestamp>
+    </wsse:Security>
+  </soap:Header>
+  <soap:Body>
+    <c:replyMessage xmlns:c="urn:schemas-cybersource-com:transaction-data-1.211">
+      <c:merchantReferenceCode>refnumb1234</c:merchantReferenceCode>
+      <c:requestID>7097026931606637903095</c:requestID>
+      <c:decision>REJECT</c:decision>
+      <c:reasonCode>102</c:reasonCode>
+      <c:invalidField>c:purchaseTotals/c:currency</c:invalidField>
+      <c:requestToken>AxijrwSTgLsIqKLSJfz3ANhRLrAkEUwv6B/CjN5P8s45vIdn+k4C7CKii0iX89wA9jPf</c:requestToken>
+      <c:apSaleReply>
+        <c:reasonCode>102</c:reasonCode>
+      </c:apSaleReply>
+      <c:reserved>
+        <ics_message xmlns="urn:schemas-cybersource-com:transaction-data:ics">
+          <ap_sale.reason_code>102</ap_sale.reason_code>
+          <invalidfield0>currency</invalidfield0>
+          <merchant_ref_number>refnumb1234</merchant_ref_number>
+          <ap_sale_rmsg>The currency value is either invalid or missing</ap_sale_rmsg>
+          <request_id>7097026931606637903095</request_id>
+          <ap_sale_rcode>0</ap_sale_rcode>
+          <ics_rcode>0</ics_rcode>
+          <ap_sale_return_code>1906004</ap_sale_return_code>
+          <ics_decision_reason_code>102</ics_decision_reason_code>
+          <ap_sale_rflag>DINVALIDDATA</ap_sale_rflag>
+          <ics_rflag>DINVALIDDATA</ics_rflag>
+          <ics_return_code>1000000</ics_return_code>
+          <request_token>AxijrwSTgLsIqKLSJfz3ANhRLrAkEUwv6B/CjN5P8s45vIdn+k4C7CKii0iX89wA9jPf</request_token>
+          <ics_rmsg>The currency value is either invalid or missing</ics_rmsg>
+          <parsed_field_names/>
+        </ics_message>
+      </c:reserved>
+    </c:replyMessage>
+  </soap:Body>
+</soap:Envelope></textarea>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="6"
+          author=""
+          tag="P24Sale"
+          device="">
+          <div class="test-detail">
+            <p class="name">saleRequestWithLongerFirstNameLength</p>
+            <p class="text-sm">
+              <span>10:54:53 AM</span> / <span>00:00:01:555</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">saleRequestWithLongerFirstNameLength</h5>
+<span class='badge badge-success'>03.06.2024 10:54:53 AM</span>
+<span class='badge badge-danger'>03.06.2024 10:54:54 AM</span>
+<span class='badge badge-default'>00:00:01:555</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=6</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">P24Sale</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:54:54 AM</td>
+        <td>
+          saleRequestWithLongerFirstNameLength is Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:54:54 AM</td>
+        <td>
+          Endpoint is : https://sl73cgkapq067.visa.com:8443
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:54:54 AM</td>
+        <td>
+          Headers are : Content-Type=application/xml
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:54:54 AM</td>
+        <td>
+          Request is:<br> <textarea><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:schemas-cybersource-com:transaction-data-1.{{WSDLVersion}}">
+    <soapenv:Header>
+        <wsse:Security soapenv:mustUnderstand="1" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+            <wsse:UsernameToken wsu:Id="UsernameToken-1" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+                <wsse:Username>thunes_cert_so</wsse:Username>
+                <wsse:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText">juB3g2V3sXCKQ5GMb3ERbqUhbTvgVnugNRNPZcd7YadH3yqPuSUdYoi4BajvoEb/S3lSKV1hmtZoLukVWYav78LwSr1250Z7cHvyDZLOAmTERfJubbTu4bvzrHI4uIDnSjnVrvIO6CUZOuo5QrmTEL6+BZEocjrcz8lkw35FRTwT7UnEcCZQ0AdVMZON/AUl/RsYSkMHbEbutLFeBQGb883NDJrsdIuHBnW2uH3XRy42AxId1r5H2VVdjd0g1Cd8nEcAYQW+8JiYEVHHksHPErr41OO+2GOrXwGCXxsjJJ+55lLKtNZqQdkpUIx6nyl2F+4nDhC3QHh7hwbs0qVrWA==</wsse:Password>
+            </wsse:UsernameToken>
+        </wsse:Security>
+    </soapenv:Header>
+    <soapenv:Body xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <requestMessage xmlns="urn:schemas-cybersource-com:transaction-data-1.211">
+            <merchantID>thunes_cert_so</merchantID>
+            <merchantReferenceCode>refnumb1234</merchantReferenceCode>
+            <invoiceHeader>
+                <merchantDescriptor>Online Store</merchantDescriptor>
+            </invoiceHeader>
+            <billTo>
+                <firstName>Badrijergjerngjerbgjrebgjerbgrjebgrehjbgerbgujrehbgjuerhjuhreuhguerhguerhguerghujrebreujgbuerhfguerhgfurehfguerjhnvujervbuejrbvujerbhvujrehguherugfherugh</firstName>
+                <lastName>R</lastName>
+                <street1>Bangalore</street1>
+                <city>CHENNAI</city>
+                <state>AR</state>
+                <postalCode>75001</postalCode>
+                <country>FR</country>
+                <phoneNumber>+33623456789</phoneNumber>
+                <email>test@thunes.com</email>
+            </billTo>
+            <shipTo>
+                <firstName>Badrinarayanan</firstName>
+                <lastName>Raj</lastName>
+                <street1>KR</street1>
+                <city>Bangalore</city>
+                <state>AR</state>
+                <postalCode>75001</postalCode>
+                <country>FR</country>
+                <phoneNumber>+33623456789</phoneNumber>
+            </shipTo>
+            <purchaseTotals>
+                <currency>PLN</currency>
+                <grandTotalAmount>20</grandTotalAmount>
+            </purchaseTotals>
+            <apPaymentType>PTT</apPaymentType>
+            <apSaleService run="true">
+                <cancelURL>https://www.redirect.url.html?action=cancel</cancelURL>
+                <successURL>https://www.redirect.url.html?action=success</successURL>
+                <failureURL>https://www.redirect.url.html?action=failure</failureURL>
+            </apSaleService>
+        </requestMessage>
+    </soapenv:Body>
+</soapenv:Envelope></textarea>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:54:54 AM</td>
+        <td>
+          Response is:<br><textarea><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <wsse:Security xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+      <wsu:Timestamp xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" wsu:Id="Timestamp-485738275">
+        <wsu:Created>2024-03-06T05:24:55.095Z</wsu:Created>
+      </wsu:Timestamp>
+    </wsse:Security>
+  </soap:Header>
+  <soap:Body>
+    <c:replyMessage xmlns:c="urn:schemas-cybersource-com:transaction-data-1.211">
+      <c:merchantReferenceCode>refnumb1234</c:merchantReferenceCode>
+      <c:requestID>7097026948766638003095</c:requestID>
+      <c:decision>REJECT</c:decision>
+      <c:reasonCode>102</c:reasonCode>
+      <c:invalidField>c:billTo/c:firstName</c:invalidField>
+      <c:requestToken>AxjjrwSTgLsIuD4x29OXANhRLrAkEXHsi/oH8KM3k/yzjm8h2f6TgLsIuD4x29OXAAAA5R2C</c:requestToken>
+      <c:apSaleReply>
+        <c:reasonCode>102</c:reasonCode>
+      </c:apSaleReply>
+      <c:reserved>
+        <ics_message xmlns="urn:schemas-cybersource-com:transaction-data:ics">
+          <ap_sale.reason_code>102</ap_sale.reason_code>
+          <invalidfield0>customer_firstname</invalidfield0>
+          <merchant_ref_number>refnumb1234</merchant_ref_number>
+          <ap_sale_rmsg>This field customer_firstname is invalid.</ap_sale_rmsg>
+          <request_id>7097026948766638003095</request_id>
+          <ap_sale_rcode>0</ap_sale_rcode>
+          <ics_rcode>0</ics_rcode>
+          <ap_sale_return_code>1272128</ap_sale_return_code>
+          <ics_decision_reason_code>102</ics_decision_reason_code>
+          <ap_sale_rflag>DINVALIDDATA</ap_sale_rflag>
+          <ics_rflag>DINVALIDDATA</ics_rflag>
+          <ics_return_code>1000000</ics_return_code>
+          <request_token>AxjjrwSTgLsIuD4x29OXANhRLrAkEXHsi/oH8KM3k/yzjm8h2f6TgLsIuD4x29OXAAAA5R2C</request_token>
+          <ics_rmsg>This field customer_firstname is invalid.</ics_rmsg>
+          <parsed_field_names/>
+        </ics_message>
+      </c:reserved>
+    </c:replyMessage>
+  </soap:Body>
+</soap:Envelope></textarea>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="7"
+          author=""
+          tag="P24Sale"
+          device="">
+          <div class="test-detail">
+            <p class="name">saleRequestWithLongerPhoneNumberLength</p>
+            <p class="text-sm">
+              <span>10:54:54 AM</span> / <span>00:00:01:303</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">saleRequestWithLongerPhoneNumberLength</h5>
+<span class='badge badge-success'>03.06.2024 10:54:54 AM</span>
+<span class='badge badge-danger'>03.06.2024 10:54:56 AM</span>
+<span class='badge badge-default'>00:00:01:303</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=7</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">P24Sale</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:54:56 AM</td>
+        <td>
+          saleRequestWithLongerPhoneNumberLength is Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:54:56 AM</td>
+        <td>
+          Endpoint is : https://sl73cgkapq067.visa.com:8443
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:54:56 AM</td>
+        <td>
+          Headers are : Content-Type=application/xml
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:54:56 AM</td>
+        <td>
+          Request is:<br> <textarea><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:schemas-cybersource-com:transaction-data-1.{{WSDLVersion}}">
+    <soapenv:Header>
+        <wsse:Security soapenv:mustUnderstand="1" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+            <wsse:UsernameToken wsu:Id="UsernameToken-1" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+                <wsse:Username>thunes_cert_so</wsse:Username>
+                <wsse:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText">juB3g2V3sXCKQ5GMb3ERbqUhbTvgVnugNRNPZcd7YadH3yqPuSUdYoi4BajvoEb/S3lSKV1hmtZoLukVWYav78LwSr1250Z7cHvyDZLOAmTERfJubbTu4bvzrHI4uIDnSjnVrvIO6CUZOuo5QrmTEL6+BZEocjrcz8lkw35FRTwT7UnEcCZQ0AdVMZON/AUl/RsYSkMHbEbutLFeBQGb883NDJrsdIuHBnW2uH3XRy42AxId1r5H2VVdjd0g1Cd8nEcAYQW+8JiYEVHHksHPErr41OO+2GOrXwGCXxsjJJ+55lLKtNZqQdkpUIx6nyl2F+4nDhC3QHh7hwbs0qVrWA==</wsse:Password>
+            </wsse:UsernameToken>
+        </wsse:Security>
+    </soapenv:Header>
+    <soapenv:Body xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <requestMessage xmlns="urn:schemas-cybersource-com:transaction-data-1.211">
+            <merchantID>thunes_cert_so</merchantID>
+            <merchantReferenceCode>refnumb1234</merchantReferenceCode>
+            <invoiceHeader>
+                <merchantDescriptor>Online Store</merchantDescriptor>
+            </invoiceHeader>
+            <billTo>
+                <firstName>Badri</firstName>
+                <lastName>R</lastName>
+                <street1>Bangalore</street1>
+                <city>CHENNAI</city>
+                <state>AR</state>
+                <postalCode>75001</postalCode>
+                <country>FR</country>
+                <phoneNumber>+33623456789847368546846476847568457698469348538475386847683443873485734856346458684567458674586745867</phoneNumber>
+                <email>test@thunes.com</email>
+            </billTo>
+            <shipTo>
+                <firstName>Badrinarayanan</firstName>
+                <lastName>Raj</lastName>
+                <street1>KR</street1>
+                <city>Bangalore</city>
+                <state>AR</state>
+                <postalCode>75001</postalCode>
+                <country>FR</country>
+                <phoneNumber>+33623456789</phoneNumber>
+            </shipTo>
+            <purchaseTotals>
+                <currency>PLN</currency>
+                <grandTotalAmount>20</grandTotalAmount>
+            </purchaseTotals>
+            <apPaymentType>PTT</apPaymentType>
+            <apSaleService run="true">
+                <cancelURL>https://www.redirect.url.html?action=cancel</cancelURL>
+                <successURL>https://www.redirect.url.html?action=success</successURL>
+                <failureURL>https://www.redirect.url.html?action=failure</failureURL>
+            </apSaleService>
+        </requestMessage>
+    </soapenv:Body>
+</soapenv:Envelope></textarea>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:54:56 AM</td>
+        <td>
+          Response is:<br><textarea><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <wsse:Security xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+      <wsu:Timestamp xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" wsu:Id="Timestamp-2006340132">
+        <wsu:Created>2024-03-06T05:24:56.398Z</wsu:Created>
+      </wsu:Timestamp>
+    </wsse:Security>
+  </soap:Header>
+  <soap:Body>
+    <c:replyMessage xmlns:c="urn:schemas-cybersource-com:transaction-data-1.211">
+      <c:requestID>7097026963306638103095</c:requestID>
+      <c:decision>REJECT</c:decision>
+      <c:reasonCode>102</c:reasonCode>
+      <c:invalidField>c:billTo/c:phoneNumber</c:invalidField>
+      <c:requestToken>AxhBLwSTgLsIxXeNZlI39k/hRm8n+Wcc3kOz/AAA0Bk9</c:requestToken>
+      <c:reserved>
+        <ics_message xmlns="urn:schemas-cybersource-com:transaction-data:ics">
+          <invalidfield0>customer_phone</invalidfield0>
+          <request_id>7097026963306638103095</request_id>
+          <ics_decision_reason_code>102</ics_decision_reason_code>
+          <request_token>AxhBLwSTgLsIxXeNZlI39k/hRm8n+Wcc3kOz/AAA0Bk9</request_token>
+          <ics_rcode>0</ics_rcode>
+          <ics_rflag>DINVALIDDATA</ics_rflag>
+          <ics_return_code>1001000</ics_return_code>
+          <ics_rmsg>The following request field(s) is either invalid or missing: customer_phone</ics_rmsg>
+          <parsed_field_names/>
+        </ics_message>
+      </c:reserved>
+    </c:replyMessage>
+  </soap:Body>
+</soap:Envelope></textarea>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="8"
+          author=""
+          tag="P24Sale"
+          device="">
+          <div class="test-detail">
+            <p class="name">saleRequestWithNegativeAmount</p>
+            <p class="text-sm">
+              <span>10:54:56 AM</span> / <span>00:00:01:340</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">saleRequestWithNegativeAmount</h5>
+<span class='badge badge-success'>03.06.2024 10:54:56 AM</span>
+<span class='badge badge-danger'>03.06.2024 10:54:57 AM</span>
+<span class='badge badge-default'>00:00:01:340</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=8</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">P24Sale</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:54:57 AM</td>
+        <td>
+          saleRequestWithNegativeAmount is Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:54:57 AM</td>
+        <td>
+          Endpoint is : https://sl73cgkapq067.visa.com:8443
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:54:57 AM</td>
+        <td>
+          Headers are : Content-Type=application/xml
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:54:57 AM</td>
+        <td>
+          Request is:<br> <textarea><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:schemas-cybersource-com:transaction-data-1.{{WSDLVersion}}">
+    <soapenv:Header>
+        <wsse:Security soapenv:mustUnderstand="1" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+            <wsse:UsernameToken wsu:Id="UsernameToken-1" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+                <wsse:Username>thunes_cert_so</wsse:Username>
+                <wsse:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText">juB3g2V3sXCKQ5GMb3ERbqUhbTvgVnugNRNPZcd7YadH3yqPuSUdYoi4BajvoEb/S3lSKV1hmtZoLukVWYav78LwSr1250Z7cHvyDZLOAmTERfJubbTu4bvzrHI4uIDnSjnVrvIO6CUZOuo5QrmTEL6+BZEocjrcz8lkw35FRTwT7UnEcCZQ0AdVMZON/AUl/RsYSkMHbEbutLFeBQGb883NDJrsdIuHBnW2uH3XRy42AxId1r5H2VVdjd0g1Cd8nEcAYQW+8JiYEVHHksHPErr41OO+2GOrXwGCXxsjJJ+55lLKtNZqQdkpUIx6nyl2F+4nDhC3QHh7hwbs0qVrWA==</wsse:Password>
+            </wsse:UsernameToken>
+        </wsse:Security>
+    </soapenv:Header>
+    <soapenv:Body xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <requestMessage xmlns="urn:schemas-cybersource-com:transaction-data-1.211">
+            <merchantID>thunes_cert_so</merchantID>
+            <merchantReferenceCode>refnumb1234</merchantReferenceCode>
+            <invoiceHeader>
+                <merchantDescriptor>Online Store</merchantDescriptor>
+            </invoiceHeader>
+            <billTo>
+                <firstName>Badri</firstName>
+                <lastName>R</lastName>
+                <street1>Bangalore</street1>
+                <city>CHENNAI</city>
+                <state>AR</state>
+                <postalCode>75001</postalCode>
+                <country>FR</country>
+                <phoneNumber>+33623456789</phoneNumber>
+                <email>test@thunes.com</email>
+            </billTo>
+            <shipTo>
+                <firstName>Badrinarayanan</firstName>
+                <lastName>Raj</lastName>
+                <street1>KR</street1>
+                <city>Bangalore</city>
+                <state>AR</state>
+                <postalCode>75001</postalCode>
+                <country>FR</country>
+                <phoneNumber>+33623456789</phoneNumber>
+            </shipTo>
+            <purchaseTotals>
+                <currency>PLN</currency>
+                <grandTotalAmount>-20</grandTotalAmount>
+            </purchaseTotals>
+            <apPaymentType>PTT</apPaymentType>
+            <apSaleService run="true">
+                <cancelURL>https://www.redirect.url.html?action=cancel</cancelURL>
+                <successURL>https://www.redirect.url.html?action=success</successURL>
+                <failureURL>https://www.redirect.url.html?action=failure</failureURL>
+            </apSaleService>
+        </requestMessage>
+    </soapenv:Body>
+</soapenv:Envelope></textarea>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:54:57 AM</td>
+        <td>
+          Response is:<br><textarea><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <wsse:Security xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+      <wsu:Timestamp xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" wsu:Id="Timestamp-1233466923">
+        <wsu:Created>2024-03-06T05:24:57.729Z</wsu:Created>
+      </wsu:Timestamp>
+    </wsse:Security>
+  </soap:Header>
+  <soap:Body>
+    <c:replyMessage xmlns:c="urn:schemas-cybersource-com:transaction-data-1.211">
+      <c:merchantReferenceCode>refnumb1234</c:merchantReferenceCode>
+      <c:requestID>7097026976296638203095</c:requestID>
+      <c:decision>REJECT</c:decision>
+      <c:reasonCode>102</c:reasonCode>
+      <c:invalidField>c:grandTotalAmount</c:invalidField>
+      <c:requestToken>AxjjrwSTgLsI0UgFvcTXANhRLrAkEY/sqgYH8KM3k/yzjm8h2f6TgLsI0UgFvcTXAAAA7RY9</c:requestToken>
+      <c:apSaleReply>
+        <c:reasonCode>102</c:reasonCode>
+      </c:apSaleReply>
+      <c:reserved>
+        <ics_message xmlns="urn:schemas-cybersource-com:transaction-data:ics">
+          <ap_sale.reason_code>102</ap_sale.reason_code>
+          <invalidfield0>grand_total_amount</invalidfield0>
+          <merchant_ref_number>refnumb1234</merchant_ref_number>
+          <ap_sale_rmsg>This field grand_total_amount is invalid.</ap_sale_rmsg>
+          <request_id>7097026976296638203095</request_id>
+          <ap_sale_rcode>0</ap_sale_rcode>
+          <ics_rcode>0</ics_rcode>
+          <ap_sale_return_code>1272128</ap_sale_return_code>
+          <ics_decision_reason_code>102</ics_decision_reason_code>
+          <ap_sale_rflag>DINVALIDDATA</ap_sale_rflag>
+          <ics_rflag>DINVALIDDATA</ics_rflag>
+          <ics_return_code>1000000</ics_return_code>
+          <request_token>AxjjrwSTgLsI0UgFvcTXANhRLrAkEY/sqgYH8KM3k/yzjm8h2f6TgLsI0UgFvcTXAAAA7RY9</request_token>
+          <ics_rmsg>This field grand_total_amount is invalid.</ics_rmsg>
+          <parsed_field_names/>
+        </ics_message>
+      </c:reserved>
+    </c:replyMessage>
+  </soap:Body>
+</soap:Envelope></textarea>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="9"
+          author=""
+          tag="P24Sale"
+          device="">
+          <div class="test-detail">
+            <p class="name">saleRequestWithValidValues</p>
+            <p class="text-sm">
+              <span>10:54:57 AM</span> / <span>00:00:02:486</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">saleRequestWithValidValues</h5>
+<span class='badge badge-success'>03.06.2024 10:54:57 AM</span>
+<span class='badge badge-danger'>03.06.2024 10:54:59 AM</span>
+<span class='badge badge-default'>00:00:02:486</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=9</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">P24Sale</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:54:59 AM</td>
+        <td>
+          saleRequestWithValidValues is Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:54:59 AM</td>
+        <td>
+          Endpoint is : https://sl73cgkapq067.visa.com:8443
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:54:59 AM</td>
+        <td>
+          Headers are : Content-Type=application/xml
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:54:59 AM</td>
+        <td>
+          Request is:<br> <textarea><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:schemas-cybersource-com:transaction-data-1.{{WSDLVersion}}">
+    <soapenv:Header>
+        <wsse:Security soapenv:mustUnderstand="1" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+            <wsse:UsernameToken wsu:Id="UsernameToken-1" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+                <wsse:Username>thunes_cert_so</wsse:Username>
+                <wsse:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText">juB3g2V3sXCKQ5GMb3ERbqUhbTvgVnugNRNPZcd7YadH3yqPuSUdYoi4BajvoEb/S3lSKV1hmtZoLukVWYav78LwSr1250Z7cHvyDZLOAmTERfJubbTu4bvzrHI4uIDnSjnVrvIO6CUZOuo5QrmTEL6+BZEocjrcz8lkw35FRTwT7UnEcCZQ0AdVMZON/AUl/RsYSkMHbEbutLFeBQGb883NDJrsdIuHBnW2uH3XRy42AxId1r5H2VVdjd0g1Cd8nEcAYQW+8JiYEVHHksHPErr41OO+2GOrXwGCXxsjJJ+55lLKtNZqQdkpUIx6nyl2F+4nDhC3QHh7hwbs0qVrWA==</wsse:Password>
+            </wsse:UsernameToken>
+        </wsse:Security>
+    </soapenv:Header>
+    <soapenv:Body xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <requestMessage xmlns="urn:schemas-cybersource-com:transaction-data-1.211">
+            <merchantID>thunes_cert_so</merchantID>
+            <merchantReferenceCode>refnumb1234</merchantReferenceCode>
+            <invoiceHeader>
+                <merchantDescriptor>Online Store</merchantDescriptor>
+            </invoiceHeader>
+            <billTo>
+                <firstName>Badri</firstName>
+                <lastName>R</lastName>
+                <street1>Bangalore</street1>
+                <city>CHENNAI</city>
+                <state>AR</state>
+                <postalCode>75001</postalCode>
+                <country>FR</country>
+                <phoneNumber>+33623456789</phoneNumber>
+                <email>test@thunes.com</email>
+            </billTo>
+            <shipTo>
+                <firstName>Badrinarayanan</firstName>
+                <lastName>Raj</lastName>
+                <street1>KR</street1>
+                <city>Bangalore</city>
+                <state>AR</state>
+                <postalCode>75001</postalCode>
+                <country>FR</country>
+                <phoneNumber>+33623456789</phoneNumber>
+            </shipTo>
+            <purchaseTotals>
+                <currency>PLN</currency>
+                <grandTotalAmount>20</grandTotalAmount>
+            </purchaseTotals>
+            <apPaymentType>PTT</apPaymentType>
+            <apSaleService run="true">
+                <cancelURL>https://www.redirect.url.html?action=cancel</cancelURL>
+                <successURL>https://www.redirect.url.html?action=success</successURL>
+                <failureURL>https://www.redirect.url.html?action=failure</failureURL>
+            </apSaleService>
+        </requestMessage>
+    </soapenv:Body>
+</soapenv:Envelope></textarea>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:54:59 AM</td>
+        <td>
+          Response is:<br><textarea><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <wsse:Security xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+      <wsu:Timestamp xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" wsu:Id="Timestamp-1584241611">
+        <wsu:Created>2024-03-06T05:25:00.144Z</wsu:Created>
+      </wsu:Timestamp>
+    </wsse:Security>
+  </soap:Header>
+  <soap:Body>
+    <c:replyMessage xmlns:c="urn:schemas-cybersource-com:transaction-data-1.211">
+      <c:merchantReferenceCode>refnumb1234</c:merchantReferenceCode>
+      <c:requestID>7097026989296638303095</c:requestID>
+      <c:decision>ACCEPT</c:decision>
+      <c:reasonCode>100</c:reasonCode>
+      <c:requestToken>AxjnrwSTgLsI3RrSIRt3ANgYwaUqrCo4iyoMyWol1gSCNX2Rf0D+GGTyf5ZxzeQ7P9JwF2Ebo1pEI27gKSc+</c:requestToken>
+      <c:purchaseTotals>
+        <c:currency>PLN</c:currency>
+      </c:purchaseTotals>
+      <c:apSaleReply>
+        <c:reasonCode>100</c:reasonCode>
+        <c:paymentStatus>pending</c:paymentStatus>
+        <c:responseCode>00001</c:responseCode>
+        <c:merchantURL>https://merchant.redirect.com/url.do?param_utf=%27%22%3C%3E%20%E6%B8%AC%E8%A9%A6%E6%B8%AC&amp;param_url=https%3A%2F%2Fwww.abc.com&amp;param_special=+@#%~_&amp;sign=fdaa1df42b6260a10e2e3f1c0fc87862</c:merchantURL>
+        <c:processorTransactionID>2016011808153910011808153910TR</c:processorTransactionID>
+        <c:reconciliationID>04RU0T8EJALK</c:reconciliationID>
+        <c:amount>20.00</c:amount>
+        <c:processorResponse>00001</c:processorResponse>
+        <c:dateTime>2024-03-06T05:25:00Z</c:dateTime>
+      </c:apSaleReply>
+      <c:reserved>
+        <ics_message xmlns="urn:schemas-cybersource-com:transaction-data:ics">
+          <ap_sale_processor_transaction_id>2016011808153910011808153910TR</ap_sale_processor_transaction_id>
+          <ap_sale_date_time>2024-03-06T052500Z</ap_sale_date_time>
+          <ics_rcode>1</ics_rcode>
+          <ics_rmsg>Request was processed successfully.</ics_rmsg>
+          <ap_sale_return_code>1900000</ap_sale_return_code>
+          <ap_sale_processor_response>00001</ap_sale_processor_response>
+          <ap_sale_response_code>00001</ap_sale_response_code>
+          <ap_sale_rflag>SOK</ap_sale_rflag>
+          <ap_sale_rmsg>Request was processed successfully.</ap_sale_rmsg>
+          <ap_sale_status>PENDING</ap_sale_status>
+          <ap_sale_amount>20.00</ap_sale_amount>
+          <ap_sale_merchant_url>https://merchant.redirect.com/url.do?param_utf=%27%22%3C%3E%20%E6%B8%AC%E8%A9%A6%E6%B8%AC&amp;param_url=https%3A%2F%2Fwww.abc.com&amp;param_special=+@#%~_&amp;sign=fdaa1df42b6260a10e2e3f1c0fc87862</ap_sale_merchant_url>
+          <ics_return_code>1000000</ics_return_code>
+          <ap_sale_rcode>1</ap_sale_rcode>
+          <request_id>7097026989296638303095</request_id>
+          <ap_sale_payment_status>pending</ap_sale_payment_status>
+          <ap_sale.reason_code>100</ap_sale.reason_code>
+          <currency>PLN</currency>
+          <request_token>AxjnrwSTgLsI3RrSIRt3ANgYwaUqrCo4iyoMyWol1gSCNX2Rf0D+GGTyf5ZxzeQ7P9JwF2Ebo1pEI27gKSc+</request_token>
+          <ics_decision_reason_code>100</ics_decision_reason_code>
+          <ics_rflag>SOK</ics_rflag>
+          <ap_sale_trans_ref_no>04RU0T8EJALK</ap_sale_trans_ref_no>
+          <merchant_ref_number>refnumb1234</merchant_ref_number>
+        </ics_message>
+      </c:reserved>
+    </c:replyMessage>
+  </soap:Body>
+</soap:Envelope></textarea>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="test-wrapper row view category-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">1</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>7</span>
+<span class='badge log badge-danger'>2</span>
+</span>
+<p class="name">P24Sale</p>
+<p class="duration text-sm">9 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>P24Sale</h4>
+<span status="pass" class='badge log pass-bg'>7 passed</span>
+<span status="fail" class='badge log badge-danger'>2 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:54:44 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='1'>saleRequestWithEmptyApPaymentType</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>10:54:46 AM</td>
+<td>
+<a href="#" class="linked" test-id='2' id='2'>saleRequestWithEmptyBillToFields</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:54:48 AM</td>
+<td>
+<a href="#" class="linked" test-id='3' id='3'>saleRequestWithEmptyCurrency</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>10:54:49 AM</td>
+<td>
+<a href="#" class="linked" test-id='4' id='4'>saleRequestWithEmptyShipToFields</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:54:51 AM</td>
+<td>
+<a href="#" class="linked" test-id='5' id='5'>saleRequestWithInvalidCurrency</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:54:53 AM</td>
+<td>
+<a href="#" class="linked" test-id='6' id='6'>saleRequestWithLongerFirstNameLength</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:54:54 AM</td>
+<td>
+<a href="#" class="linked" test-id='7' id='7'>saleRequestWithLongerPhoneNumberLength</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:54:56 AM</td>
+<td>
+<a href="#" class="linked" test-id='8' id='8'>saleRequestWithNegativeAmount</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:54:57 AM</td>
+<td>
+<a href="#" class="linked" test-id='9' id='9'>saleRequestWithValidValues</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Mar 6, 2024 10:54:43 AM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Mar 6, 2024 10:55:00 AM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Tests Passed</p>
+<h3>7</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Tests Failed</p>
+<h3>2</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Tests</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='77%'>
+<b>7</b> tests passed
+</small>
+</div>
+<div>
+<small data-tooltip='22%'><b>2</b> tests failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Log events</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='events-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='71%'><b>35</b> events passed</small></div>
+<div>
+<small data-tooltip='28%'><b>14</b> events failed,
+<b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"saleRequestWithEmptyApPaymentType":2.458,"saleRequestWithEmptyBillToFields":1.697,"saleRequestWithEmptyCurrency":1.371,"saleRequestWithEmptyShipToFields":1.774,"saleRequestWithInvalidCurrency":1.916,"saleRequestWithLongerFirstNameLength":1.555,"saleRequestWithLongerPhoneNumberLength":1.303,"saleRequestWithNegativeAmount":1.34,"saleRequestWithValidValues":2.486
+};
+</script>
+<div class="row">
+<div class="col-lg-6 col-md-12 category-container">
+<div class="card">
+<div class="card-header"><p>Tags</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
+<tr>
+<td>P24Sale</td>
+<td>7</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+<td>77.778%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 7,
+failParent: 2,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 0,
+failChild: 0,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 0,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+passEvents: 35,
+failEvents: 14,
+warningEvents: 0,
+skipEvents: 0,
+infoEvents: 0
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>

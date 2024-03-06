@@ -1,0 +1,1489 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="16.662" tests="9" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="sun.awt.enableExtraMouseButtons" value="true"/>
+    <property name="java.class.path" value="/Users/badrr/Documents/webframe/target/test-classes:/Users/badrr/Documents/webframe/target/classes:/Users/badrr/integration-tests/io/rest-assured/rest-assured/5.3.0/rest-assured-5.3.0.jar:/Users/badrr/integration-tests/org/apache/groovy/groovy/4.0.6/groovy-4.0.6.jar:/Users/badrr/integration-tests/org/apache/groovy/groovy-xml/4.0.6/groovy-xml-4.0.6.jar:/Users/badrr/integration-tests/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/badrr/integration-tests/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/badrr/integration-tests/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/badrr/integration-tests/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/badrr/integration-tests/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/badrr/integration-tests/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/badrr/integration-tests/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/badrr/integration-tests/io/rest-assured/json-path/5.3.0/json-path-5.3.0.jar:/Users/badrr/integration-tests/org/apache/groovy/groovy-json/4.0.6/groovy-json-4.0.6.jar:/Users/badrr/integration-tests/io/rest-assured/rest-assured-common/5.3.0/rest-assured-common-5.3.0.jar:/Users/badrr/integration-tests/io/rest-assured/xml-path/5.3.0/xml-path-5.3.0.jar:/Users/badrr/integration-tests/com/fasterxml/jackson/core/jackson-databind/2.15.0/jackson-databind-2.15.0.jar:/Users/badrr/integration-tests/com/fasterxml/jackson/core/jackson-annotations/2.15.0/jackson-annotations-2.15.0.jar:/Users/badrr/integration-tests/com/fasterxml/jackson/core/jackson-core/2.15.0/jackson-core-2.15.0.jar:/Users/badrr/integration-tests/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar:/Users/badrr/integration-tests/io/reactivex/rxjava3/rxjava/3.0.4/rxjava-3.0.4.jar:/Users/badrr/integration-tests/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/badrr/integration-tests/org/freemarker/freemarker/2.3.30/freemarker-2.3.30.jar:/Users/badrr/integration-tests/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/Users/badrr/integration-tests/org/testng/testng/7.8.0/testng-7.8.0.jar:/Users/badrr/integration-tests/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/badrr/integration-tests/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/badrr/integration-tests/org/webjars/jquery/3.6.1/jquery-3.6.1.jar:/Users/badrr/integration-tests/org/seleniumhq/selenium/selenium-java/4.18.1/selenium-java-4.18.1.jar:/Users/badrr/integration-tests/org/seleniumhq/selenium/selenium-api/4.18.1/selenium-api-4.18.1.jar:/Users/badrr/integration-tests/org/seleniumhq/selenium/selenium-chrome-driver/4.18.1/selenium-chrome-driver-4.18.1.jar:/Users/badrr/integration-tests/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/badrr/integration-tests/org/seleniumhq/selenium/selenium-chromium-driver/4.18.1/selenium-chromium-driver-4.18.1.jar:/Users/badrr/integration-tests/org/seleniumhq/selenium/selenium-json/4.18.1/selenium-json-4.18.1.jar:/Users/badrr/integration-tests/org/seleniumhq/selenium/selenium-manager/4.18.1/selenium-manager-4.18.1.jar:/Users/badrr/integration-tests/org/seleniumhq/selenium/selenium-devtools-v120/4.18.1/selenium-devtools-v120-4.18.1.jar:/Users/badrr/integration-tests/org/seleniumhq/selenium/selenium-devtools-v121/4.18.1/selenium-devtools-v121-4.18.1.jar:/Users/badrr/integration-tests/org/seleniumhq/selenium/selenium-devtools-v122/4.18.1/selenium-devtools-v122-4.18.1.jar:/Users/badrr/integration-tests/org/seleniumhq/selenium/selenium-devtools-v85/4.18.1/selenium-devtools-v85-4.18.1.jar:/Users/badrr/integration-tests/org/seleniumhq/selenium/selenium-edge-driver/4.18.1/selenium-edge-driver-4.18.1.jar:/Users/badrr/integration-tests/org/seleniumhq/selenium/selenium-firefox-driver/4.18.1/selenium-firefox-driver-4.18.1.jar:/Users/badrr/integration-tests/org/seleniumhq/selenium/selenium-http/4.18.1/selenium-http-4.18.1.jar:/Users/badrr/integration-tests/dev/failsafe/failsafe/3.3.2/failsafe-3.3.2.jar:/Users/badrr/integration-tests/org/seleniumhq/selenium/selenium-ie-driver/4.18.1/selenium-ie-driver-4.18.1.jar:/Users/badrr/integration-tests/org/seleniumhq/selenium/selenium-remote-driver/4.18.1/selenium-remote-driver-4.18.1.jar:/Users/badrr/integration-tests/com/google/guava/guava/33.0.0-jre/guava-33.0.0-jre.jar:/Users/badrr/integration-tests/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar:/Users/badrr/integration-tests/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/badrr/integration-tests/org/checkerframework/checker-qual/3.41.0/checker-qual-3.41.0.jar:/Users/badrr/integration-tests/com/google/errorprone/error_prone_annotations/2.23.0/error_prone_annotations-2.23.0.jar:/Users/badrr/integration-tests/com/google/j2objc/j2objc-annotations/2.8/j2objc-annotations-2.8.jar:/Users/badrr/integration-tests/io/opentelemetry/semconv/opentelemetry-semconv/1.23.1-alpha/opentelemetry-semconv-1.23.1-alpha.jar:/Users/badrr/integration-tests/io/opentelemetry/opentelemetry-api/1.35.0/opentelemetry-api-1.35.0.jar:/Users/badrr/integration-tests/io/opentelemetry/opentelemetry-context/1.35.0/opentelemetry-context-1.35.0.jar:/Users/badrr/integration-tests/io/opentelemetry/opentelemetry-exporter-logging/1.35.0/opentelemetry-exporter-logging-1.35.0.jar:/Users/badrr/integration-tests/io/opentelemetry/opentelemetry-sdk-common/1.35.0/opentelemetry-sdk-common-1.35.0.jar:/Users/badrr/integration-tests/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.35.0/opentelemetry-sdk-extension-autoconfigure-spi-1.35.0.jar:/Users/badrr/integration-tests/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.35.0/opentelemetry-sdk-extension-autoconfigure-1.35.0.jar:/Users/badrr/integration-tests/io/opentelemetry/opentelemetry-api-events/1.35.0-alpha/opentelemetry-api-events-1.35.0-alpha.jar:/Users/badrr/integration-tests/io/opentelemetry/opentelemetry-sdk-trace/1.35.0/opentelemetry-sdk-trace-1.35.0.jar:/Users/badrr/integration-tests/io/opentelemetry/opentelemetry-extension-incubator/1.35.0-alpha/opentelemetry-extension-incubator-1.35.0-alpha.jar:/Users/badrr/integration-tests/io/opentelemetry/opentelemetry-sdk/1.35.0/opentelemetry-sdk-1.35.0.jar:/Users/badrr/integration-tests/io/opentelemetry/opentelemetry-sdk-metrics/1.35.0/opentelemetry-sdk-metrics-1.35.0.jar:/Users/badrr/integration-tests/io/opentelemetry/opentelemetry-sdk-logs/1.35.0/opentelemetry-sdk-logs-1.35.0.jar:/Users/badrr/integration-tests/net/bytebuddy/byte-buddy/1.14.12/byte-buddy-1.14.12.jar:/Users/badrr/integration-tests/org/seleniumhq/selenium/selenium-os/4.18.1/selenium-os-4.18.1.jar:/Users/badrr/integration-tests/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/badrr/integration-tests/org/seleniumhq/selenium/selenium-safari-driver/4.18.1/selenium-safari-driver-4.18.1.jar:/Users/badrr/integration-tests/org/seleniumhq/selenium/selenium-support/4.18.1/selenium-support-4.18.1.jar:/Users/badrr/integration-tests/org/apache/logging/log4j/log4j-core/2.20.0/log4j-core-2.20.0.jar:/Users/badrr/integration-tests/org/apache/logging/log4j/log4j-api/2.20.0/log4j-api-2.20.0.jar:/Users/badrr/integration-tests/org/apache/maven/plugins/maven-compiler-plugin/3.6.0/maven-compiler-plugin-3.6.0.jar:/Users/badrr/integration-tests/org/apache/maven/maven-plugin-api/3.0/maven-plugin-api-3.0.jar:/Users/badrr/integration-tests/org/apache/maven/maven-model/3.0/maven-model-3.0.jar:/Users/badrr/integration-tests/org/sonatype/sisu/sisu-inject-plexus/1.4.2/sisu-inject-plexus-1.4.2.jar:/Users/badrr/integration-tests/org/sonatype/sisu/sisu-inject-bean/1.4.2/sisu-inject-bean-1.4.2.jar:/Users/badrr/integration-tests/org/sonatype/sisu/sisu-guice/2.1.7/sisu-guice-2.1.7-noaop.jar:/Users/badrr/integration-tests/org/apache/maven/maven-artifact/3.0/maven-artifact-3.0.jar:/Users/badrr/integration-tests/org/codehaus/plexus/plexus-utils/2.0.4/plexus-utils-2.0.4.jar:/Users/badrr/integration-tests/org/apache/maven/maven-core/3.0/maven-core-3.0.jar:/Users/badrr/integration-tests/org/apache/maven/maven-settings/3.0/maven-settings-3.0.jar:/Users/badrr/integration-tests/org/apache/maven/maven-settings-builder/3.0/maven-settings-builder-3.0.jar:/Users/badrr/integration-tests/org/apache/maven/maven-repository-metadata/3.0/maven-repository-metadata-3.0.jar:/Users/badrr/integration-tests/org/apache/maven/maven-model-builder/3.0/maven-model-builder-3.0.jar:/Users/badrr/integration-tests/org/apache/maven/maven-aether-provider/3.0/maven-aether-provider-3.0.jar:/Users/badrr/integration-tests/org/sonatype/aether/aether-impl/1.7/aether-impl-1.7.jar:/Users/badrr/integration-tests/org/sonatype/aether/aether-spi/1.7/aether-spi-1.7.jar:/Users/badrr/integration-tests/org/sonatype/aether/aether-api/1.7/aether-api-1.7.jar:/Users/badrr/integration-tests/org/sonatype/aether/aether-util/1.7/aether-util-1.7.jar:/Users/badrr/integration-tests/org/codehaus/plexus/plexus-interpolation/1.14/plexus-interpolation-1.14.jar:/Users/badrr/integration-tests/org/codehaus/plexus/plexus-classworlds/2.2.3/plexus-classworlds-2.2.3.jar:/Users/badrr/integration-tests/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar:/Users/badrr/integration-tests/org/sonatype/plexus/plexus-sec-dispatcher/1.3/plexus-sec-dispatcher-1.3.jar:/Users/badrr/integration-tests/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.jar:/Users/badrr/integration-tests/org/apache/maven/shared/maven-shared-utils/3.1.0/maven-shared-utils-3.1.0.jar:/Users/badrr/integration-tests/org/apache/maven/shared/maven-shared-incremental/1.1/maven-shared-incremental-1.1.jar:/Users/badrr/integration-tests/org/ow2/asm/asm/6.0_ALPHA/asm-6.0_ALPHA.jar:/Users/badrr/integration-tests/org/codehaus/plexus/plexus-compiler-api/2.8.1/plexus-compiler-api-2.8.1.jar:/Users/badrr/integration-tests/org/codehaus/plexus/plexus-compiler-manager/2.8.1/plexus-compiler-manager-2.8.1.jar:/Users/badrr/integration-tests/org/codehaus/plexus/plexus-compiler-javac/2.8.1/plexus-compiler-javac-2.8.1.jar:/Users/badrr/integration-tests/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar:/Users/badrr/integration-tests/junit/junit/4.10/junit-4.10.jar:/Users/badrr/integration-tests/commons-io/commons-io/1.3.2/commons-io-1.3.2.jar:/Users/badrr/integration-tests/com/influxdb/influxdb-client-java/6.6.0/influxdb-client-java-6.6.0.jar:/Users/badrr/integration-tests/com/influxdb/influxdb-client-core/6.6.0/influxdb-client-core-6.6.0.jar:/Users/badrr/integration-tests/com/influxdb/influxdb-client-utils/6.6.0/influxdb-client-utils-6.6.0.jar:/Users/badrr/integration-tests/com/squareup/okio/okio/3.2.0/okio-3.2.0.jar:/Users/badrr/integration-tests/com/squareup/okio/okio-jvm/3.2.0/okio-jvm-3.2.0.jar:/Users/badrr/integration-tests/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.6.20/kotlin-stdlib-jdk8-1.6.20.jar:/Users/badrr/integration-tests/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.6.20/kotlin-stdlib-jdk7-1.6.20.jar:/Users/badrr/integration-tests/com/squareup/okhttp3/okhttp/4.10.0/okhttp-4.10.0.jar:/Users/badrr/integration-tests/org/jetbrains/kotlin/kotlin-stdlib/1.6.20/kotlin-stdlib-1.6.20.jar:/Users/badrr/integration-tests/org/jetbrains/kotlin/kotlin-stdlib-common/1.6.20/kotlin-stdlib-common-1.6.20.jar:/Users/badrr/integration-tests/org/jetbrains/annotations/13.0/annotations-13.0.jar:/Users/badrr/integration-tests/com/squareup/retrofit2/retrofit/2.9.0/retrofit-2.9.0.jar:/Users/badrr/integration-tests/com/squareup/okhttp3/logging-interceptor/4.10.0/logging-interceptor-4.10.0.jar:/Users/badrr/integration-tests/org/apache/commons/commons-csv/1.9.0/commons-csv-1.9.0.jar:/Users/badrr/integration-tests/com/squareup/retrofit2/adapter-rxjava3/2.9.0/adapter-rxjava3-2.9.0.jar:/Users/badrr/integration-tests/io/gsonfire/gson-fire/1.8.5/gson-fire-1.8.5.jar:/Users/badrr/integration-tests/com/squareup/retrofit2/converter-scalars/2.9.0/converter-scalars-2.9.0.jar:/Users/badrr/integration-tests/com/squareup/retrofit2/converter-gson/2.9.0/converter-gson-2.9.0.jar:/Users/badrr/integration-tests/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/badrr/integration-tests/io/github/bonigarcia/webdrivermanager/5.7.0/webdrivermanager-5.7.0.jar:/Users/badrr/integration-tests/com/github/docker-java/docker-java/3.3.5/docker-java-3.3.5.jar:/Users/badrr/integration-tests/com/github/docker-java/docker-java-core/3.3.5/docker-java-core-3.3.5.jar:/Users/badrr/integration-tests/com/github/docker-java/docker-java-api/3.3.5/docker-java-api-3.3.5.jar:/Users/badrr/integration-tests/org/bouncycastle/bcpkix-jdk18on/1.76/bcpkix-jdk18on-1.76.jar:/Users/badrr/integration-tests/org/bouncycastle/bcprov-jdk18on/1.76/bcprov-jdk18on-1.76.jar:/Users/badrr/integration-tests/org/bouncycastle/bcutil-jdk18on/1.76/bcutil-jdk18on-1.76.jar:/Users/badrr/integration-tests/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/badrr/integration-tests/com/github/docker-java/docker-java-transport-httpclient5/3.3.5/docker-java-transport-httpclient5-3.3.5.jar:/Users/badrr/integration-tests/com/github/docker-java/docker-java-transport/3.3.5/docker-java-transport-3.3.5.jar:/Users/badrr/integration-tests/net/java/dev/jna/jna/5.13.0/jna-5.13.0.jar:/Users/badrr/integration-tests/org/brotli/dec/0.1.2/dec-0.1.2.jar:/Users/badrr/integration-tests/org/apache/commons/commons-lang3/3.14.0/commons-lang3-3.14.0.jar:/Users/badrr/integration-tests/org/apache/commons/commons-compress/1.26.0/commons-compress-1.26.0.jar:/Users/badrr/integration-tests/org/apache/httpcomponents/client5/httpclient5/5.2.1/httpclient5-5.2.1.jar:/Users/badrr/integration-tests/org/apache/httpcomponents/core5/httpcore5/5.2/httpcore5-5.2.jar:/Users/badrr/integration-tests/org/apache/httpcomponents/core5/httpcore5-h2/5.2/httpcore5-h2-5.2.jar:/Users/badrr/integration-tests/org/jdom/jdom2/2.0.6/jdom2-2.0.6.jar:/Users/badrr/integration-tests/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar:"/>
+    <property name="java.vm.vendor" value="Amazon.com Inc."/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.font.fontmanager" value="sun.font.CFontManager"/>
+    <property name="java.vendor.url" value="https://aws.amazon.com/corretto/"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="/Users/badrr/Library/Java/JavaVirtualMachines/corretto-11.0.20.1/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/badrr/Documents/webframe/target/surefire/surefirebooter-20240306105443299_3.jar /Users/badrr/Documents/webframe/target/surefire 2024-03-06T10-54-43_252-jvmRun1 surefire-20240306105443299_1tmp surefire_0-20240306105443299_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16|10/8|*.10/8|trusted.visa.com|*.trusted.visa.com"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/badrr/Documents/webframe/target/test-classes:/Users/badrr/Documents/webframe/target/classes:/Users/badrr/integration-tests/io/rest-assured/rest-assured/5.3.0/rest-assured-5.3.0.jar:/Users/badrr/integration-tests/org/apache/groovy/groovy/4.0.6/groovy-4.0.6.jar:/Users/badrr/integration-tests/org/apache/groovy/groovy-xml/4.0.6/groovy-xml-4.0.6.jar:/Users/badrr/integration-tests/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/badrr/integration-tests/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/badrr/integration-tests/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/badrr/integration-tests/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/badrr/integration-tests/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/badrr/integration-tests/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/badrr/integration-tests/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/badrr/integration-tests/io/rest-assured/json-path/5.3.0/json-path-5.3.0.jar:/Users/badrr/integration-tests/org/apache/groovy/groovy-json/4.0.6/groovy-json-4.0.6.jar:/Users/badrr/integration-tests/io/rest-assured/rest-assured-common/5.3.0/rest-assured-common-5.3.0.jar:/Users/badrr/integration-tests/io/rest-assured/xml-path/5.3.0/xml-path-5.3.0.jar:/Users/badrr/integration-tests/com/fasterxml/jackson/core/jackson-databind/2.15.0/jackson-databind-2.15.0.jar:/Users/badrr/integration-tests/com/fasterxml/jackson/core/jackson-annotations/2.15.0/jackson-annotations-2.15.0.jar:/Users/badrr/integration-tests/com/fasterxml/jackson/core/jackson-core/2.15.0/jackson-core-2.15.0.jar:/Users/badrr/integration-tests/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar:/Users/badrr/integration-tests/io/reactivex/rxjava3/rxjava/3.0.4/rxjava-3.0.4.jar:/Users/badrr/integration-tests/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/badrr/integration-tests/org/freemarker/freemarker/2.3.30/freemarker-2.3.30.jar:/Users/badrr/integration-tests/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/Users/badrr/integration-tests/org/testng/testng/7.8.0/testng-7.8.0.jar:/Users/badrr/integration-tests/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/badrr/integration-tests/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/badrr/integration-tests/org/webjars/jquery/3.6.1/jquery-3.6.1.jar:/Users/badrr/integration-tests/org/seleniumhq/selenium/selenium-java/4.18.1/selenium-java-4.18.1.jar:/Users/badrr/integration-tests/org/seleniumhq/selenium/selenium-api/4.18.1/selenium-api-4.18.1.jar:/Users/badrr/integration-tests/org/seleniumhq/selenium/selenium-chrome-driver/4.18.1/selenium-chrome-driver-4.18.1.jar:/Users/badrr/integration-tests/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/badrr/integration-tests/org/seleniumhq/selenium/selenium-chromium-driver/4.18.1/selenium-chromium-driver-4.18.1.jar:/Users/badrr/integration-tests/org/seleniumhq/selenium/selenium-json/4.18.1/selenium-json-4.18.1.jar:/Users/badrr/integration-tests/org/seleniumhq/selenium/selenium-manager/4.18.1/selenium-manager-4.18.1.jar:/Users/badrr/integration-tests/org/seleniumhq/selenium/selenium-devtools-v120/4.18.1/selenium-devtools-v120-4.18.1.jar:/Users/badrr/integration-tests/org/seleniumhq/selenium/selenium-devtools-v121/4.18.1/selenium-devtools-v121-4.18.1.jar:/Users/badrr/integration-tests/org/seleniumhq/selenium/selenium-devtools-v122/4.18.1/selenium-devtools-v122-4.18.1.jar:/Users/badrr/integration-tests/org/seleniumhq/selenium/selenium-devtools-v85/4.18.1/selenium-devtools-v85-4.18.1.jar:/Users/badrr/integration-tests/org/seleniumhq/selenium/selenium-edge-driver/4.18.1/selenium-edge-driver-4.18.1.jar:/Users/badrr/integration-tests/org/seleniumhq/selenium/selenium-firefox-driver/4.18.1/selenium-firefox-driver-4.18.1.jar:/Users/badrr/integration-tests/org/seleniumhq/selenium/selenium-http/4.18.1/selenium-http-4.18.1.jar:/Users/badrr/integration-tests/dev/failsafe/failsafe/3.3.2/failsafe-3.3.2.jar:/Users/badrr/integration-tests/org/seleniumhq/selenium/selenium-ie-driver/4.18.1/selenium-ie-driver-4.18.1.jar:/Users/badrr/integration-tests/org/seleniumhq/selenium/selenium-remote-driver/4.18.1/selenium-remote-driver-4.18.1.jar:/Users/badrr/integration-tests/com/google/guava/guava/33.0.0-jre/guava-33.0.0-jre.jar:/Users/badrr/integration-tests/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar:/Users/badrr/integration-tests/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/badrr/integration-tests/org/checkerframework/checker-qual/3.41.0/checker-qual-3.41.0.jar:/Users/badrr/integration-tests/com/google/errorprone/error_prone_annotations/2.23.0/error_prone_annotations-2.23.0.jar:/Users/badrr/integration-tests/com/google/j2objc/j2objc-annotations/2.8/j2objc-annotations-2.8.jar:/Users/badrr/integration-tests/io/opentelemetry/semconv/opentelemetry-semconv/1.23.1-alpha/opentelemetry-semconv-1.23.1-alpha.jar:/Users/badrr/integration-tests/io/opentelemetry/opentelemetry-api/1.35.0/opentelemetry-api-1.35.0.jar:/Users/badrr/integration-tests/io/opentelemetry/opentelemetry-context/1.35.0/opentelemetry-context-1.35.0.jar:/Users/badrr/integration-tests/io/opentelemetry/opentelemetry-exporter-logging/1.35.0/opentelemetry-exporter-logging-1.35.0.jar:/Users/badrr/integration-tests/io/opentelemetry/opentelemetry-sdk-common/1.35.0/opentelemetry-sdk-common-1.35.0.jar:/Users/badrr/integration-tests/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.35.0/opentelemetry-sdk-extension-autoconfigure-spi-1.35.0.jar:/Users/badrr/integration-tests/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.35.0/opentelemetry-sdk-extension-autoconfigure-1.35.0.jar:/Users/badrr/integration-tests/io/opentelemetry/opentelemetry-api-events/1.35.0-alpha/opentelemetry-api-events-1.35.0-alpha.jar:/Users/badrr/integration-tests/io/opentelemetry/opentelemetry-sdk-trace/1.35.0/opentelemetry-sdk-trace-1.35.0.jar:/Users/badrr/integration-tests/io/opentelemetry/opentelemetry-extension-incubator/1.35.0-alpha/opentelemetry-extension-incubator-1.35.0-alpha.jar:/Users/badrr/integration-tests/io/opentelemetry/opentelemetry-sdk/1.35.0/opentelemetry-sdk-1.35.0.jar:/Users/badrr/integration-tests/io/opentelemetry/opentelemetry-sdk-metrics/1.35.0/opentelemetry-sdk-metrics-1.35.0.jar:/Users/badrr/integration-tests/io/opentelemetry/opentelemetry-sdk-logs/1.35.0/opentelemetry-sdk-logs-1.35.0.jar:/Users/badrr/integration-tests/net/bytebuddy/byte-buddy/1.14.12/byte-buddy-1.14.12.jar:/Users/badrr/integration-tests/org/seleniumhq/selenium/selenium-os/4.18.1/selenium-os-4.18.1.jar:/Users/badrr/integration-tests/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/badrr/integration-tests/org/seleniumhq/selenium/selenium-safari-driver/4.18.1/selenium-safari-driver-4.18.1.jar:/Users/badrr/integration-tests/org/seleniumhq/selenium/selenium-support/4.18.1/selenium-support-4.18.1.jar:/Users/badrr/integration-tests/org/apache/logging/log4j/log4j-core/2.20.0/log4j-core-2.20.0.jar:/Users/badrr/integration-tests/org/apache/logging/log4j/log4j-api/2.20.0/log4j-api-2.20.0.jar:/Users/badrr/integration-tests/org/apache/maven/plugins/maven-compiler-plugin/3.6.0/maven-compiler-plugin-3.6.0.jar:/Users/badrr/integration-tests/org/apache/maven/maven-plugin-api/3.0/maven-plugin-api-3.0.jar:/Users/badrr/integration-tests/org/apache/maven/maven-model/3.0/maven-model-3.0.jar:/Users/badrr/integration-tests/org/sonatype/sisu/sisu-inject-plexus/1.4.2/sisu-inject-plexus-1.4.2.jar:/Users/badrr/integration-tests/org/sonatype/sisu/sisu-inject-bean/1.4.2/sisu-inject-bean-1.4.2.jar:/Users/badrr/integration-tests/org/sonatype/sisu/sisu-guice/2.1.7/sisu-guice-2.1.7-noaop.jar:/Users/badrr/integration-tests/org/apache/maven/maven-artifact/3.0/maven-artifact-3.0.jar:/Users/badrr/integration-tests/org/codehaus/plexus/plexus-utils/2.0.4/plexus-utils-2.0.4.jar:/Users/badrr/integration-tests/org/apache/maven/maven-core/3.0/maven-core-3.0.jar:/Users/badrr/integration-tests/org/apache/maven/maven-settings/3.0/maven-settings-3.0.jar:/Users/badrr/integration-tests/org/apache/maven/maven-settings-builder/3.0/maven-settings-builder-3.0.jar:/Users/badrr/integration-tests/org/apache/maven/maven-repository-metadata/3.0/maven-repository-metadata-3.0.jar:/Users/badrr/integration-tests/org/apache/maven/maven-model-builder/3.0/maven-model-builder-3.0.jar:/Users/badrr/integration-tests/org/apache/maven/maven-aether-provider/3.0/maven-aether-provider-3.0.jar:/Users/badrr/integration-tests/org/sonatype/aether/aether-impl/1.7/aether-impl-1.7.jar:/Users/badrr/integration-tests/org/sonatype/aether/aether-spi/1.7/aether-spi-1.7.jar:/Users/badrr/integration-tests/org/sonatype/aether/aether-api/1.7/aether-api-1.7.jar:/Users/badrr/integration-tests/org/sonatype/aether/aether-util/1.7/aether-util-1.7.jar:/Users/badrr/integration-tests/org/codehaus/plexus/plexus-interpolation/1.14/plexus-interpolation-1.14.jar:/Users/badrr/integration-tests/org/codehaus/plexus/plexus-classworlds/2.2.3/plexus-classworlds-2.2.3.jar:/Users/badrr/integration-tests/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar:/Users/badrr/integration-tests/org/sonatype/plexus/plexus-sec-dispatcher/1.3/plexus-sec-dispatcher-1.3.jar:/Users/badrr/integration-tests/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.jar:/Users/badrr/integration-tests/org/apache/maven/shared/maven-shared-utils/3.1.0/maven-shared-utils-3.1.0.jar:/Users/badrr/integration-tests/org/apache/maven/shared/maven-shared-incremental/1.1/maven-shared-incremental-1.1.jar:/Users/badrr/integration-tests/org/ow2/asm/asm/6.0_ALPHA/asm-6.0_ALPHA.jar:/Users/badrr/integration-tests/org/codehaus/plexus/plexus-compiler-api/2.8.1/plexus-compiler-api-2.8.1.jar:/Users/badrr/integration-tests/org/codehaus/plexus/plexus-compiler-manager/2.8.1/plexus-compiler-manager-2.8.1.jar:/Users/badrr/integration-tests/org/codehaus/plexus/plexus-compiler-javac/2.8.1/plexus-compiler-javac-2.8.1.jar:/Users/badrr/integration-tests/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar:/Users/badrr/integration-tests/junit/junit/4.10/junit-4.10.jar:/Users/badrr/integration-tests/commons-io/commons-io/1.3.2/commons-io-1.3.2.jar:/Users/badrr/integration-tests/com/influxdb/influxdb-client-java/6.6.0/influxdb-client-java-6.6.0.jar:/Users/badrr/integration-tests/com/influxdb/influxdb-client-core/6.6.0/influxdb-client-core-6.6.0.jar:/Users/badrr/integration-tests/com/influxdb/influxdb-client-utils/6.6.0/influxdb-client-utils-6.6.0.jar:/Users/badrr/integration-tests/com/squareup/okio/okio/3.2.0/okio-3.2.0.jar:/Users/badrr/integration-tests/com/squareup/okio/okio-jvm/3.2.0/okio-jvm-3.2.0.jar:/Users/badrr/integration-tests/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.6.20/kotlin-stdlib-jdk8-1.6.20.jar:/Users/badrr/integration-tests/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.6.20/kotlin-stdlib-jdk7-1.6.20.jar:/Users/badrr/integration-tests/com/squareup/okhttp3/okhttp/4.10.0/okhttp-4.10.0.jar:/Users/badrr/integration-tests/org/jetbrains/kotlin/kotlin-stdlib/1.6.20/kotlin-stdlib-1.6.20.jar:/Users/badrr/integration-tests/org/jetbrains/kotlin/kotlin-stdlib-common/1.6.20/kotlin-stdlib-common-1.6.20.jar:/Users/badrr/integration-tests/org/jetbrains/annotations/13.0/annotations-13.0.jar:/Users/badrr/integration-tests/com/squareup/retrofit2/retrofit/2.9.0/retrofit-2.9.0.jar:/Users/badrr/integration-tests/com/squareup/okhttp3/logging-interceptor/4.10.0/logging-interceptor-4.10.0.jar:/Users/badrr/integration-tests/org/apache/commons/commons-csv/1.9.0/commons-csv-1.9.0.jar:/Users/badrr/integration-tests/com/squareup/retrofit2/adapter-rxjava3/2.9.0/adapter-rxjava3-2.9.0.jar:/Users/badrr/integration-tests/io/gsonfire/gson-fire/1.8.5/gson-fire-1.8.5.jar:/Users/badrr/integration-tests/com/squareup/retrofit2/converter-scalars/2.9.0/converter-scalars-2.9.0.jar:/Users/badrr/integration-tests/com/squareup/retrofit2/converter-gson/2.9.0/converter-gson-2.9.0.jar:/Users/badrr/integration-tests/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/badrr/integration-tests/io/github/bonigarcia/webdrivermanager/5.7.0/webdrivermanager-5.7.0.jar:/Users/badrr/integration-tests/com/github/docker-java/docker-java/3.3.5/docker-java-3.3.5.jar:/Users/badrr/integration-tests/com/github/docker-java/docker-java-core/3.3.5/docker-java-core-3.3.5.jar:/Users/badrr/integration-tests/com/github/docker-java/docker-java-api/3.3.5/docker-java-api-3.3.5.jar:/Users/badrr/integration-tests/org/bouncycastle/bcpkix-jdk18on/1.76/bcpkix-jdk18on-1.76.jar:/Users/badrr/integration-tests/org/bouncycastle/bcprov-jdk18on/1.76/bcprov-jdk18on-1.76.jar:/Users/badrr/integration-tests/org/bouncycastle/bcutil-jdk18on/1.76/bcutil-jdk18on-1.76.jar:/Users/badrr/integration-tests/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/badrr/integration-tests/com/github/docker-java/docker-java-transport-httpclient5/3.3.5/docker-java-transport-httpclient5-3.3.5.jar:/Users/badrr/integration-tests/com/github/docker-java/docker-java-transport/3.3.5/docker-java-transport-3.3.5.jar:/Users/badrr/integration-tests/net/java/dev/jna/jna/5.13.0/jna-5.13.0.jar:/Users/badrr/integration-tests/org/brotli/dec/0.1.2/dec-0.1.2.jar:/Users/badrr/integration-tests/org/apache/commons/commons-lang3/3.14.0/commons-lang3-3.14.0.jar:/Users/badrr/integration-tests/org/apache/commons/commons-compress/1.26.0/commons-compress-1.26.0.jar:/Users/badrr/integration-tests/org/apache/httpcomponents/client5/httpclient5/5.2.1/httpclient5-5.2.1.jar:/Users/badrr/integration-tests/org/apache/httpcomponents/core5/httpcore5/5.2/httpcore5-5.2.jar:/Users/badrr/integration-tests/org/apache/httpcomponents/core5/httpcore5-h2/5.2/httpcore5-h2-5.2.jar:/Users/badrr/integration-tests/org/jdom/jdom2/2.0.6/jdom2-2.0.6.jar:/Users/badrr/integration-tests/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/badrr"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-08-22"/>
+    <property name="java.home" value="/Users/badrr/Library/Java/JavaVirtualMachines/corretto-11.0.20.1/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/badrr/Documents/webframe"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/badrr/Documents/webframe/target/surefire/surefirebooter-20240306105443299_3.jar"/>
+    <property name="Browser" value="chrome"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16|10/8|*.10/8|trusted.visa.com|*.trusted.visa.com"/>
+    <property name="java.runtime.version" value="11.0.20.1+9-LTS"/>
+    <property name="user.name" value="badrr"/>
+    <property name="path.separator" value=":"/>
+    <property name="ENV" value="R1"/>
+    <property name="os.version" value="14.3.1"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file" value="thunes.xml"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Corretto-11.0.20.9.1"/>
+    <property name="localRepository" value="/Users/badrr/integration-tests"/>
+    <property name="java.vendor.url.bug" value="https://github.com/corretto/corretto-11/issues/"/>
+    <property name="java.io.tmpdir" value="/var/folders/ly/8hw9gn3j2tg3ttv4_w0lvkch0000gp/T/"/>
+    <property name="java.version" value="11.0.20.1"/>
+    <property name="user.dir" value="/Users/badrr/Documents/webframe"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/badrr/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Amazon.com Inc."/>
+    <property name="java.vm.version" value="11.0.20.1+9-LTS"/>
+    <property name="java.specification.maintenance.version" value="2"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16|10/8|*.10/8|trusted.visa.com|*.trusted.visa.com"/>
+  </properties>
+  <testcase name="saleRequestWithEmptyApPaymentType" classname="soapreq.thunes.P24Sale" time="2.457">
+    <system-out><![CDATA[Inside OnStart
+Request method:	POST
+Request URI:	https://sl73cgkapq067.visa.com:8443/commerce/1.x/transactionProcessor/
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=text/xml; charset=utf-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:schemas-cybersource-com:transaction-data-1.{{WSDLVersion}}">
+  <soapenv:Header>
+    <wsse:Security soapenv:mustUnderstand="1" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+      <wsse:UsernameToken wsu:Id="UsernameToken-1" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+        <wsse:Username>thunes_cert_so</wsse:Username>
+        <wsse:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText">juB3g2V3sXCKQ5GMb3ERbqUhbTvgVnugNRNPZcd7YadH3yqPuSUdYoi4BajvoEb/S3lSKV1hmtZoLukVWYav78LwSr1250Z7cHvyDZLOAmTERfJubbTu4bvzrHI4uIDnSjnVrvIO6CUZOuo5QrmTEL6+BZEocjrcz8lkw35FRTwT7UnEcCZQ0AdVMZON/AUl/RsYSkMHbEbutLFeBQGb883NDJrsdIuHBnW2uH3XRy42AxId1r5H2VVdjd0g1Cd8nEcAYQW+8JiYEVHHksHPErr41OO+2GOrXwGCXxsjJJ+55lLKtNZqQdkpUIx6nyl2F+4nDhC3QHh7hwbs0qVrWA==</wsse:Password>
+      </wsse:UsernameToken>
+    </wsse:Security>
+  </soapenv:Header>
+  <soapenv:Body xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <requestMessage xmlns="urn:schemas-cybersource-com:transaction-data-1.211">
+      <merchantID>thunes_cert_so</merchantID>
+      <merchantReferenceCode>refnumb1234</merchantReferenceCode>
+      <invoiceHeader>
+        <merchantDescriptor>Online Store</merchantDescriptor>
+      </invoiceHeader>
+      <billTo>
+        <firstName>Badri</firstName>
+        <lastName>R</lastName>
+        <street1>Bangalore</street1>
+        <city>CHENNAI</city>
+        <state>AR</state>
+        <postalCode>75001</postalCode>
+        <country>FR</country>
+        <phoneNumber>+33623456789</phoneNumber>
+        <email>test@thunes.com</email>
+      </billTo>
+      <shipTo>
+        <firstName>Badrinarayanan</firstName>
+        <lastName>Raj</lastName>
+        <street1>KR</street1>
+        <city>Bangalore</city>
+        <state>AR</state>
+        <postalCode>75001</postalCode>
+        <country>FR</country>
+        <phoneNumber>+33623456789</phoneNumber>
+      </shipTo>
+      <purchaseTotals>
+        <currency>PLN</currency>
+        <grandTotalAmount>20</grandTotalAmount>
+      </purchaseTotals>
+      <apPaymentType/>
+      <apSaleService run="true">
+        <cancelURL>https://www.redirect.url.html?action=cancel</cancelURL>
+        <successURL>https://www.redirect.url.html?action=success</successURL>
+        <failureURL>https://www.redirect.url.html?action=failure</failureURL>
+      </apSaleService>
+    </requestMessage>
+  </soapenv:Body>
+</soapenv:Envelope>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <wsse:Security xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+      <wsu:Timestamp xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" wsu:Id="Timestamp-859587183">
+        <wsu:Created>2024-03-06T05:24:46.558Z</wsu:Created>
+      </wsu:Timestamp>
+    </wsse:Security>
+  </soap:Header>
+  <soap:Body>
+    <c:replyMessage xmlns:c="urn:schemas-cybersource-com:transaction-data-1.211">
+      <c:merchantReferenceCode>refnumb1234</c:merchantReferenceCode>
+      <c:requestID>7097026864746637503095</c:requestID>
+      <c:decision>REJECT</c:decision>
+      <c:reasonCode>102</c:reasonCode>
+      <c:invalidField>(ap_payment_type)</c:invalidField>
+      <c:requestToken>AxjjLwSTgLsIa9PDkyp3ANhRLrAkEPnsi/oH8KM3k/yzjm8h2f4A8zrH</c:requestToken>
+      <c:apSaleReply>
+        <c:reasonCode>102</c:reasonCode>
+      </c:apSaleReply>
+      <c:reserved>
+        <ics_message xmlns="urn:schemas-cybersource-com:transaction-data:ics">
+          <ap_sale.reason_code>102</ap_sale.reason_code>
+          <invalidfield0>ap_payment_type</invalidfield0>
+          <merchant_ref_number>refnumb1234</merchant_ref_number>
+          <ap_sale_rmsg>The field is invalid: ap_payment_type.  is not supported ap_payment_type.</ap_sale_rmsg>
+          <request_id>7097026864746637503095</request_id>
+          <ap_sale_rcode>0</ap_sale_rcode>
+          <ics_rcode>0</ics_rcode>
+          <ap_sale_return_code>1002013</ap_sale_return_code>
+          <ics_decision_reason_code>102</ics_decision_reason_code>
+          <ap_sale_rflag>DINVALIDDATA</ap_sale_rflag>
+          <ics_rflag>DINVALIDDATA</ics_rflag>
+          <ics_return_code>1000000</ics_return_code>
+          <request_token>AxjjLwSTgLsIa9PDkyp3ANhRLrAkEPnsi/oH8KM3k/yzjm8h2f4A8zrH</request_token>
+          <ics_rmsg>The field is invalid: ap_payment_type.  is not supported ap_payment_type.</ics_rmsg>
+          <parsed_field_names/>
+        </ics_message>
+      </c:reserved>
+    </c:replyMessage>
+  </soap:Body>
+</soap:Envelope>
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="saleRequestWithEmptyBillToFields" classname="soapreq.thunes.P24Sale" time="1.692">
+    <failure message="expected [REJECT] but found [ACCEPT]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [REJECT] but found [ACCEPT]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at soapreq.thunes.P24Sale.saleRequestWithEmptyBillToFields(P24Sale.java:148)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+]]></failure>
+    <system-out><![CDATA[<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <wsse:Security xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+      <wsu:Timestamp xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" wsu:Id="Timestamp-859587183">
+        <wsu:Created>2024-03-06T05:24:46.558Z</wsu:Created>
+      </wsu:Timestamp>
+    </wsse:Security>
+  </soap:Header>
+  <soap:Body>
+    <c:replyMessage xmlns:c="urn:schemas-cybersource-com:transaction-data-1.211">
+      <c:merchantReferenceCode>refnumb1234</c:merchantReferenceCode>
+      <c:requestID>7097026864746637503095</c:requestID>
+      <c:decision>REJECT</c:decision>
+      <c:reasonCode>102</c:reasonCode>
+      <c:invalidField>(ap_payment_type)</c:invalidField>
+      <c:requestToken>AxjjLwSTgLsIa9PDkyp3ANhRLrAkEPnsi/oH8KM3k/yzjm8h2f4A8zrH</c:requestToken>
+      <c:apSaleReply>
+        <c:reasonCode>102</c:reasonCode>
+      </c:apSaleReply>
+      <c:reserved>
+        <ics_message xmlns="urn:schemas-cybersource-com:transaction-data:ics">
+          <ap_sale.reason_code>102</ap_sale.reason_code>
+          <invalidfield0>ap_payment_type</invalidfield0>
+          <merchant_ref_number>refnumb1234</merchant_ref_number>
+          <ap_sale_rmsg>The field is invalid: ap_payment_type.  is not supported ap_payment_type.</ap_sale_rmsg>
+          <request_id>7097026864746637503095</request_id>
+          <ap_sale_rcode>0</ap_sale_rcode>
+          <ics_rcode>0</ics_rcode>
+          <ap_sale_return_code>1002013</ap_sale_return_code>
+          <ics_decision_reason_code>102</ics_decision_reason_code>
+          <ap_sale_rflag>DINVALIDDATA</ap_sale_rflag>
+          <ics_rflag>DINVALIDDATA</ics_rflag>
+          <ics_return_code>1000000</ics_return_code>
+          <request_token>AxjjLwSTgLsIa9PDkyp3ANhRLrAkEPnsi/oH8KM3k/yzjm8h2f4A8zrH</request_token>
+          <ics_rmsg>The field is invalid: ap_payment_type.  is not supported ap_payment_type.</ics_rmsg>
+          <parsed_field_names/>
+        </ics_message>
+      </c:reserved>
+    </c:replyMessage>
+  </soap:Body>
+</soap:Envelope>
+Request method:	POST
+Request URI:	https://sl73cgkapq067.visa.com:8443/commerce/1.x/transactionProcessor/
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=text/xml; charset=utf-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:schemas-cybersource-com:transaction-data-1.{{WSDLVersion}}">
+  <soapenv:Header>
+    <wsse:Security soapenv:mustUnderstand="1" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+      <wsse:UsernameToken wsu:Id="UsernameToken-1" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+        <wsse:Username>thunes_cert_so</wsse:Username>
+        <wsse:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText">juB3g2V3sXCKQ5GMb3ERbqUhbTvgVnugNRNPZcd7YadH3yqPuSUdYoi4BajvoEb/S3lSKV1hmtZoLukVWYav78LwSr1250Z7cHvyDZLOAmTERfJubbTu4bvzrHI4uIDnSjnVrvIO6CUZOuo5QrmTEL6+BZEocjrcz8lkw35FRTwT7UnEcCZQ0AdVMZON/AUl/RsYSkMHbEbutLFeBQGb883NDJrsdIuHBnW2uH3XRy42AxId1r5H2VVdjd0g1Cd8nEcAYQW+8JiYEVHHksHPErr41OO+2GOrXwGCXxsjJJ+55lLKtNZqQdkpUIx6nyl2F+4nDhC3QHh7hwbs0qVrWA==</wsse:Password>
+      </wsse:UsernameToken>
+    </wsse:Security>
+  </soapenv:Header>
+  <soapenv:Body xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <requestMessage xmlns="urn:schemas-cybersource-com:transaction-data-1.211">
+      <merchantID>thunes_cert_so</merchantID>
+      <merchantReferenceCode>refnumb1234</merchantReferenceCode>
+      <invoiceHeader>
+        <merchantDescriptor>Online Store</merchantDescriptor>
+      </invoiceHeader>
+      <billTo>
+        <firstName/>
+        <lastName/>
+        <street1/>
+        <city/>
+        <state/>
+        <postalCode/>
+        <country/>
+        <phoneNumber/>
+        <email/>
+      </billTo>
+      <shipTo>
+        <firstName>Badrinarayanan</firstName>
+        <lastName>Raj</lastName>
+        <street1>KR</street1>
+        <city>Bangalore</city>
+        <state>AR</state>
+        <postalCode>75001</postalCode>
+        <country>FR</country>
+        <phoneNumber>+33623456789</phoneNumber>
+      </shipTo>
+      <purchaseTotals>
+        <currency>PLN</currency>
+        <grandTotalAmount>20</grandTotalAmount>
+      </purchaseTotals>
+      <apPaymentType>PTT</apPaymentType>
+      <apSaleService run="true">
+        <cancelURL>https://www.redirect.url.html?action=cancel</cancelURL>
+        <successURL>https://www.redirect.url.html?action=success</successURL>
+        <failureURL>https://www.redirect.url.html?action=failure</failureURL>
+      </apSaleService>
+    </requestMessage>
+  </soapenv:Body>
+</soapenv:Envelope>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <wsse:Security xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+      <wsu:Timestamp xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" wsu:Id="Timestamp-473832003">
+        <wsu:Created>2024-03-06T05:24:48.458Z</wsu:Created>
+      </wsu:Timestamp>
+    </wsse:Security>
+  </soap:Header>
+  <soap:Body>
+    <c:replyMessage xmlns:c="urn:schemas-cybersource-com:transaction-data-1.211">
+      <c:merchantReferenceCode>refnumb1234</c:merchantReferenceCode>
+      <c:requestID>7097026882406637603095</c:requestID>
+      <c:decision>ACCEPT</c:decision>
+      <c:reasonCode>100</c:reasonCode>
+      <c:requestToken>AxjnrwSTgLsIe+ONm4kXANgYwaUqrCo4iyoMyOol1gSCIj2Rf0D+GGTyf5ZxzeQ7P9JwF2EPfHGzcSLgwDxY</c:requestToken>
+      <c:purchaseTotals>
+        <c:currency>PLN</c:currency>
+      </c:purchaseTotals>
+      <c:apSaleReply>
+        <c:reasonCode>100</c:reasonCode>
+        <c:paymentStatus>pending</c:paymentStatus>
+        <c:responseCode>00001</c:responseCode>
+        <c:merchantURL>https://merchant.redirect.com/url.do?param_utf=%27%22%3C%3E%20%E6%B8%AC%E8%A9%A6%E6%B8%AC&amp;param_url=https%3A%2F%2Fwww.abc.com&amp;param_special=+@#%~_&amp;sign=fdaa1df42b6260a10e2e3f1c0fc87862</c:merchantURL>
+        <c:processorTransactionID>2016011808153910011808153910TR</c:processorTransactionID>
+        <c:reconciliationID>04RU0T8EJALG</c:reconciliationID>
+        <c:amount>20.00</c:amount>
+        <c:processorResponse>00001</c:processorResponse>
+        <c:dateTime>2024-03-06T05:24:48Z</c:dateTime>
+      </c:apSaleReply>
+      <c:reserved>
+        <ics_message xmlns="urn:schemas-cybersource-com:transaction-data:ics">
+          <ap_sale_processor_transaction_id>2016011808153910011808153910TR</ap_sale_processor_transaction_id>
+          <ap_sale_date_time>2024-03-06T052448Z</ap_sale_date_time>
+          <ics_rcode>1</ics_rcode>
+          <ics_rmsg>Request was processed successfully.</ics_rmsg>
+          <ap_sale_return_code>1900000</ap_sale_return_code>
+          <ap_sale_processor_response>00001</ap_sale_processor_response>
+          <ap_sale_response_code>00001</ap_sale_response_code>
+          <ap_sale_rflag>SOK</ap_sale_rflag>
+          <ap_sale_rmsg>Request was processed successfully.</ap_sale_rmsg>
+          <ap_sale_status>PENDING</ap_sale_status>
+          <ap_sale_amount>20.00</ap_sale_amount>
+          <ap_sale_merchant_url>https://merchant.redirect.com/url.do?param_utf=%27%22%3C%3E%20%E6%B8%AC%E8%A9%A6%E6%B8%AC&amp;param_url=https%3A%2F%2Fwww.abc.com&amp;param_special=+@#%~_&amp;sign=fdaa1df42b6260a10e2e3f1c0fc87862</ap_sale_merchant_url>
+          <ics_return_code>1000000</ics_return_code>
+          <ap_sale_rcode>1</ap_sale_rcode>
+          <request_id>7097026882406637603095</request_id>
+          <ap_sale_payment_status>pending</ap_sale_payment_status>
+          <ap_sale.reason_code>100</ap_sale.reason_code>
+          <currency>PLN</currency>
+          <request_token>AxjnrwSTgLsIe+ONm4kXANgYwaUqrCo4iyoMyOol1gSCIj2Rf0D+GGTyf5ZxzeQ7P9JwF2EPfHGzcSLgwDxY</request_token>
+          <ics_decision_reason_code>100</ics_decision_reason_code>
+          <ics_rflag>SOK</ics_rflag>
+          <ap_sale_trans_ref_no>04RU0T8EJALG</ap_sale_trans_ref_no>
+          <merchant_ref_number>refnumb1234</merchant_ref_number>
+        </ics_message>
+      </c:reserved>
+    </c:replyMessage>
+  </soap:Body>
+</soap:Envelope>
+]]></system-out>
+  </testcase>
+  <testcase name="saleRequestWithEmptyCurrency" classname="soapreq.thunes.P24Sale" time="1.368">
+    <system-out><![CDATA[<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <wsse:Security xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+      <wsu:Timestamp xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" wsu:Id="Timestamp-473832003">
+        <wsu:Created>2024-03-06T05:24:48.458Z</wsu:Created>
+      </wsu:Timestamp>
+    </wsse:Security>
+  </soap:Header>
+  <soap:Body>
+    <c:replyMessage xmlns:c="urn:schemas-cybersource-com:transaction-data-1.211">
+      <c:merchantReferenceCode>refnumb1234</c:merchantReferenceCode>
+      <c:requestID>7097026882406637603095</c:requestID>
+      <c:decision>ACCEPT</c:decision>
+      <c:reasonCode>100</c:reasonCode>
+      <c:requestToken>AxjnrwSTgLsIe+ONm4kXANgYwaUqrCo4iyoMyOol1gSCIj2Rf0D+GGTyf5ZxzeQ7P9JwF2EPfHGzcSLgwDxY</c:requestToken>
+      <c:purchaseTotals>
+        <c:currency>PLN</c:currency>
+      </c:purchaseTotals>
+      <c:apSaleReply>
+        <c:reasonCode>100</c:reasonCode>
+        <c:paymentStatus>pending</c:paymentStatus>
+        <c:responseCode>00001</c:responseCode>
+        <c:merchantURL>https://merchant.redirect.com/url.do?param_utf=%27%22%3C%3E%20%E6%B8%AC%E8%A9%A6%E6%B8%AC&amp;param_url=https%3A%2F%2Fwww.abc.com&amp;param_special=+@#%~_&amp;sign=fdaa1df42b6260a10e2e3f1c0fc87862</c:merchantURL>
+        <c:processorTransactionID>2016011808153910011808153910TR</c:processorTransactionID>
+        <c:reconciliationID>04RU0T8EJALG</c:reconciliationID>
+        <c:amount>20.00</c:amount>
+        <c:processorResponse>00001</c:processorResponse>
+        <c:dateTime>2024-03-06T05:24:48Z</c:dateTime>
+      </c:apSaleReply>
+      <c:reserved>
+        <ics_message xmlns="urn:schemas-cybersource-com:transaction-data:ics">
+          <ap_sale_processor_transaction_id>2016011808153910011808153910TR</ap_sale_processor_transaction_id>
+          <ap_sale_date_time>2024-03-06T052448Z</ap_sale_date_time>
+          <ics_rcode>1</ics_rcode>
+          <ics_rmsg>Request was processed successfully.</ics_rmsg>
+          <ap_sale_return_code>1900000</ap_sale_return_code>
+          <ap_sale_processor_response>00001</ap_sale_processor_response>
+          <ap_sale_response_code>00001</ap_sale_response_code>
+          <ap_sale_rflag>SOK</ap_sale_rflag>
+          <ap_sale_rmsg>Request was processed successfully.</ap_sale_rmsg>
+          <ap_sale_status>PENDING</ap_sale_status>
+          <ap_sale_amount>20.00</ap_sale_amount>
+          <ap_sale_merchant_url>https://merchant.redirect.com/url.do?param_utf=%27%22%3C%3E%20%E6%B8%AC%E8%A9%A6%E6%B8%AC&amp;param_url=https%3A%2F%2Fwww.abc.com&amp;param_special=+@#%~_&amp;sign=fdaa1df42b6260a10e2e3f1c0fc87862</ap_sale_merchant_url>
+          <ics_return_code>1000000</ics_return_code>
+          <ap_sale_rcode>1</ap_sale_rcode>
+          <request_id>7097026882406637603095</request_id>
+          <ap_sale_payment_status>pending</ap_sale_payment_status>
+          <ap_sale.reason_code>100</ap_sale.reason_code>
+          <currency>PLN</currency>
+          <request_token>AxjnrwSTgLsIe+ONm4kXANgYwaUqrCo4iyoMyOol1gSCIj2Rf0D+GGTyf5ZxzeQ7P9JwF2EPfHGzcSLgwDxY</request_token>
+          <ics_decision_reason_code>100</ics_decision_reason_code>
+          <ics_rflag>SOK</ics_rflag>
+          <ap_sale_trans_ref_no>04RU0T8EJALG</ap_sale_trans_ref_no>
+          <merchant_ref_number>refnumb1234</merchant_ref_number>
+        </ics_message>
+      </c:reserved>
+    </c:replyMessage>
+  </soap:Body>
+</soap:Envelope>
+Request method:	POST
+Request URI:	https://sl73cgkapq067.visa.com:8443/commerce/1.x/transactionProcessor/
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=text/xml; charset=utf-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:schemas-cybersource-com:transaction-data-1.{{WSDLVersion}}">
+  <soapenv:Header>
+    <wsse:Security soapenv:mustUnderstand="1" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+      <wsse:UsernameToken wsu:Id="UsernameToken-1" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+        <wsse:Username>thunes_cert_so</wsse:Username>
+        <wsse:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText">juB3g2V3sXCKQ5GMb3ERbqUhbTvgVnugNRNPZcd7YadH3yqPuSUdYoi4BajvoEb/S3lSKV1hmtZoLukVWYav78LwSr1250Z7cHvyDZLOAmTERfJubbTu4bvzrHI4uIDnSjnVrvIO6CUZOuo5QrmTEL6+BZEocjrcz8lkw35FRTwT7UnEcCZQ0AdVMZON/AUl/RsYSkMHbEbutLFeBQGb883NDJrsdIuHBnW2uH3XRy42AxId1r5H2VVdjd0g1Cd8nEcAYQW+8JiYEVHHksHPErr41OO+2GOrXwGCXxsjJJ+55lLKtNZqQdkpUIx6nyl2F+4nDhC3QHh7hwbs0qVrWA==</wsse:Password>
+      </wsse:UsernameToken>
+    </wsse:Security>
+  </soapenv:Header>
+  <soapenv:Body xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <requestMessage xmlns="urn:schemas-cybersource-com:transaction-data-1.211">
+      <merchantID>thunes_cert_so</merchantID>
+      <merchantReferenceCode>refnumb1234</merchantReferenceCode>
+      <invoiceHeader>
+        <merchantDescriptor>Online Store</merchantDescriptor>
+      </invoiceHeader>
+      <billTo>
+        <firstName>Badri</firstName>
+        <lastName>R</lastName>
+        <street1>Bangalore</street1>
+        <city>CHENNAI</city>
+        <state>AR</state>
+        <postalCode>75001</postalCode>
+        <country>FR</country>
+        <phoneNumber>+33623456789</phoneNumber>
+        <email>test@thunes.com</email>
+      </billTo>
+      <shipTo>
+        <firstName>Badrinarayanan</firstName>
+        <lastName>Raj</lastName>
+        <street1>KR</street1>
+        <city>Bangalore</city>
+        <state>AR</state>
+        <postalCode>75001</postalCode>
+        <country>FR</country>
+        <phoneNumber>+33623456789</phoneNumber>
+      </shipTo>
+      <purchaseTotals>
+        <currency/>
+        <grandTotalAmount>20</grandTotalAmount>
+      </purchaseTotals>
+      <apPaymentType>PTT</apPaymentType>
+      <apSaleService run="true">
+        <cancelURL>https://www.redirect.url.html?action=cancel</cancelURL>
+        <successURL>https://www.redirect.url.html?action=success</successURL>
+        <failureURL>https://www.redirect.url.html?action=failure</failureURL>
+      </apSaleService>
+    </requestMessage>
+  </soapenv:Body>
+</soapenv:Envelope>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <wsse:Security xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+      <wsu:Timestamp xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" wsu:Id="Timestamp-1427221502">
+        <wsu:Created>2024-03-06T05:24:49.848Z</wsu:Created>
+      </wsu:Timestamp>
+    </wsse:Security>
+  </soap:Header>
+  <soap:Body>
+    <c:replyMessage xmlns:c="urn:schemas-cybersource-com:transaction-data-1.211">
+      <c:merchantReferenceCode>refnumb1234</c:merchantReferenceCode>
+      <c:requestID>7097026897746637703095</c:requestID>
+      <c:decision>REJECT</c:decision>
+      <c:reasonCode>101</c:reasonCode>
+      <c:missingField>c:purchaseTotals/c:currency</c:missingField>
+      <c:requestToken>AxijrwSTgLsIidcs3Ue3ANhRLrAkERQv6B/CjL5P8s45vIdn+k4C7CInXLN1HtwAoRmF</c:requestToken>
+      <c:apSaleReply>
+        <c:reasonCode>101</c:reasonCode>
+      </c:apSaleReply>
+      <c:reserved>
+        <ics_message xmlns="urn:schemas-cybersource-com:transaction-data:ics">
+          <ap_sale.reason_code>101</ap_sale.reason_code>
+          <merchant_ref_number>refnumb1234</merchant_ref_number>
+          <ap_sale_rmsg>The request data did not pass the required fields check for this application: [currency]</ap_sale_rmsg>
+          <request_id>7097026897746637703095</request_id>
+          <missingfield0>currency</missingfield0>
+          <ap_sale_rcode>0</ap_sale_rcode>
+          <ics_rcode>0</ics_rcode>
+          <ap_sale_return_code>1002002</ap_sale_return_code>
+          <ics_decision_reason_code>101</ics_decision_reason_code>
+          <ap_sale_rflag>DMISSINGFIELD</ap_sale_rflag>
+          <ics_rflag>DMISSINGFIELD</ics_rflag>
+          <ics_return_code>1000000</ics_return_code>
+          <request_token>AxijrwSTgLsIidcs3Ue3ANhRLrAkERQv6B/CjL5P8s45vIdn+k4C7CInXLN1HtwAoRmF</request_token>
+          <ics_rmsg>The request data did not pass the required fields check for this application: [currency]</ics_rmsg>
+          <parsed_field_names/>
+        </ics_message>
+      </c:reserved>
+    </c:replyMessage>
+  </soap:Body>
+</soap:Envelope>
+]]></system-out>
+  </testcase>
+  <testcase name="saleRequestWithEmptyShipToFields" classname="soapreq.thunes.P24Sale" time="1.77">
+    <failure message="expected [REJECT] but found [ACCEPT]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [REJECT] but found [ACCEPT]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at soapreq.thunes.P24Sale.saleRequestWithEmptyShipToFields(P24Sale.java:164)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+]]></failure>
+    <system-out><![CDATA[<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <wsse:Security xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+      <wsu:Timestamp xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" wsu:Id="Timestamp-1427221502">
+        <wsu:Created>2024-03-06T05:24:49.848Z</wsu:Created>
+      </wsu:Timestamp>
+    </wsse:Security>
+  </soap:Header>
+  <soap:Body>
+    <c:replyMessage xmlns:c="urn:schemas-cybersource-com:transaction-data-1.211">
+      <c:merchantReferenceCode>refnumb1234</c:merchantReferenceCode>
+      <c:requestID>7097026897746637703095</c:requestID>
+      <c:decision>REJECT</c:decision>
+      <c:reasonCode>101</c:reasonCode>
+      <c:missingField>c:purchaseTotals/c:currency</c:missingField>
+      <c:requestToken>AxijrwSTgLsIidcs3Ue3ANhRLrAkERQv6B/CjL5P8s45vIdn+k4C7CInXLN1HtwAoRmF</c:requestToken>
+      <c:apSaleReply>
+        <c:reasonCode>101</c:reasonCode>
+      </c:apSaleReply>
+      <c:reserved>
+        <ics_message xmlns="urn:schemas-cybersource-com:transaction-data:ics">
+          <ap_sale.reason_code>101</ap_sale.reason_code>
+          <merchant_ref_number>refnumb1234</merchant_ref_number>
+          <ap_sale_rmsg>The request data did not pass the required fields check for this application: [currency]</ap_sale_rmsg>
+          <request_id>7097026897746637703095</request_id>
+          <missingfield0>currency</missingfield0>
+          <ap_sale_rcode>0</ap_sale_rcode>
+          <ics_rcode>0</ics_rcode>
+          <ap_sale_return_code>1002002</ap_sale_return_code>
+          <ics_decision_reason_code>101</ics_decision_reason_code>
+          <ap_sale_rflag>DMISSINGFIELD</ap_sale_rflag>
+          <ics_rflag>DMISSINGFIELD</ics_rflag>
+          <ics_return_code>1000000</ics_return_code>
+          <request_token>AxijrwSTgLsIidcs3Ue3ANhRLrAkERQv6B/CjL5P8s45vIdn+k4C7CInXLN1HtwAoRmF</request_token>
+          <ics_rmsg>The request data did not pass the required fields check for this application: [currency]</ics_rmsg>
+          <parsed_field_names/>
+        </ics_message>
+      </c:reserved>
+    </c:replyMessage>
+  </soap:Body>
+</soap:Envelope>
+Request method:	POST
+Request URI:	https://sl73cgkapq067.visa.com:8443/commerce/1.x/transactionProcessor/
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=text/xml; charset=utf-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:schemas-cybersource-com:transaction-data-1.{{WSDLVersion}}">
+  <soapenv:Header>
+    <wsse:Security soapenv:mustUnderstand="1" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+      <wsse:UsernameToken wsu:Id="UsernameToken-1" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+        <wsse:Username>thunes_cert_so</wsse:Username>
+        <wsse:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText">juB3g2V3sXCKQ5GMb3ERbqUhbTvgVnugNRNPZcd7YadH3yqPuSUdYoi4BajvoEb/S3lSKV1hmtZoLukVWYav78LwSr1250Z7cHvyDZLOAmTERfJubbTu4bvzrHI4uIDnSjnVrvIO6CUZOuo5QrmTEL6+BZEocjrcz8lkw35FRTwT7UnEcCZQ0AdVMZON/AUl/RsYSkMHbEbutLFeBQGb883NDJrsdIuHBnW2uH3XRy42AxId1r5H2VVdjd0g1Cd8nEcAYQW+8JiYEVHHksHPErr41OO+2GOrXwGCXxsjJJ+55lLKtNZqQdkpUIx6nyl2F+4nDhC3QHh7hwbs0qVrWA==</wsse:Password>
+      </wsse:UsernameToken>
+    </wsse:Security>
+  </soapenv:Header>
+  <soapenv:Body xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <requestMessage xmlns="urn:schemas-cybersource-com:transaction-data-1.211">
+      <merchantID>thunes_cert_so</merchantID>
+      <merchantReferenceCode>refnumb1234</merchantReferenceCode>
+      <invoiceHeader>
+        <merchantDescriptor>Online Store</merchantDescriptor>
+      </invoiceHeader>
+      <billTo>
+        <firstName>Badri</firstName>
+        <lastName>R</lastName>
+        <street1>Bangalore</street1>
+        <city>CHENNAI</city>
+        <state>AR</state>
+        <postalCode>75001</postalCode>
+        <country>FR</country>
+        <phoneNumber>+33623456789</phoneNumber>
+        <email>test@thunes.com</email>
+      </billTo>
+      <shipTo>
+        <firstName/>
+        <lastName/>
+        <street1/>
+        <city/>
+        <state/>
+        <postalCode/>
+        <country/>
+        <phoneNumber/>
+      </shipTo>
+      <purchaseTotals>
+        <currency>PLN</currency>
+        <grandTotalAmount>20</grandTotalAmount>
+      </purchaseTotals>
+      <apPaymentType>PTT</apPaymentType>
+      <apSaleService run="true">
+        <cancelURL>https://www.redirect.url.html?action=cancel</cancelURL>
+        <successURL>https://www.redirect.url.html?action=success</successURL>
+        <failureURL>https://www.redirect.url.html?action=failure</failureURL>
+      </apSaleService>
+    </requestMessage>
+  </soapenv:Body>
+</soapenv:Envelope>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <wsse:Security xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+      <wsu:Timestamp xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" wsu:Id="Timestamp-82275042">
+        <wsu:Created>2024-03-06T05:24:51.581Z</wsu:Created>
+      </wsu:Timestamp>
+    </wsse:Security>
+  </soap:Header>
+  <soap:Body>
+    <c:replyMessage xmlns:c="urn:schemas-cybersource-com:transaction-data-1.211">
+      <c:merchantReferenceCode>refnumb1234</c:merchantReferenceCode>
+      <c:requestID>7097026910776637803095</c:requestID>
+      <c:decision>ACCEPT</c:decision>
+      <c:reasonCode>100</c:reasonCode>
+      <c:requestToken>AxjnrwSTgLsIlbD1ZEpXANgYwaUqrCo4iyoMyQol1gSCJX2Rf0D+GGTyf5ZxzeQ7P9JwF2ESth6siUrg2SI6</c:requestToken>
+      <c:purchaseTotals>
+        <c:currency>PLN</c:currency>
+      </c:purchaseTotals>
+      <c:apSaleReply>
+        <c:reasonCode>100</c:reasonCode>
+        <c:paymentStatus>pending</c:paymentStatus>
+        <c:responseCode>00001</c:responseCode>
+        <c:merchantURL>https://merchant.redirect.com/url.do?param_utf=%27%22%3C%3E%20%E6%B8%AC%E8%A9%A6%E6%B8%AC&amp;param_url=https%3A%2F%2Fwww.abc.com&amp;param_special=+@#%~_&amp;sign=fdaa1df42b6260a10e2e3f1c0fc87862</c:merchantURL>
+        <c:processorTransactionID>2016011808153910011808153910TR</c:processorTransactionID>
+        <c:reconciliationID>04RU0T8EJALH</c:reconciliationID>
+        <c:amount>20.00</c:amount>
+        <c:processorResponse>00001</c:processorResponse>
+        <c:dateTime>2024-03-06T05:24:51Z</c:dateTime>
+      </c:apSaleReply>
+      <c:reserved>
+        <ics_message xmlns="urn:schemas-cybersource-com:transaction-data:ics">
+          <ap_sale_processor_transaction_id>2016011808153910011808153910TR</ap_sale_processor_transaction_id>
+          <ap_sale_date_time>2024-03-06T052451Z</ap_sale_date_time>
+          <ics_rcode>1</ics_rcode>
+          <ics_rmsg>Request was processed successfully.</ics_rmsg>
+          <ap_sale_return_code>1900000</ap_sale_return_code>
+          <ap_sale_processor_response>00001</ap_sale_processor_response>
+          <ap_sale_response_code>00001</ap_sale_response_code>
+          <ap_sale_rflag>SOK</ap_sale_rflag>
+          <ap_sale_rmsg>Request was processed successfully.</ap_sale_rmsg>
+          <ap_sale_status>PENDING</ap_sale_status>
+          <ap_sale_amount>20.00</ap_sale_amount>
+          <ap_sale_merchant_url>https://merchant.redirect.com/url.do?param_utf=%27%22%3C%3E%20%E6%B8%AC%E8%A9%A6%E6%B8%AC&amp;param_url=https%3A%2F%2Fwww.abc.com&amp;param_special=+@#%~_&amp;sign=fdaa1df42b6260a10e2e3f1c0fc87862</ap_sale_merchant_url>
+          <ics_return_code>1000000</ics_return_code>
+          <ap_sale_rcode>1</ap_sale_rcode>
+          <request_id>7097026910776637803095</request_id>
+          <ap_sale_payment_status>pending</ap_sale_payment_status>
+          <ap_sale.reason_code>100</ap_sale.reason_code>
+          <currency>PLN</currency>
+          <request_token>AxjnrwSTgLsIlbD1ZEpXANgYwaUqrCo4iyoMyQol1gSCJX2Rf0D+GGTyf5ZxzeQ7P9JwF2ESth6siUrg2SI6</request_token>
+          <ics_decision_reason_code>100</ics_decision_reason_code>
+          <ics_rflag>SOK</ics_rflag>
+          <ap_sale_trans_ref_no>04RU0T8EJALH</ap_sale_trans_ref_no>
+          <merchant_ref_number>refnumb1234</merchant_ref_number>
+        </ics_message>
+      </c:reserved>
+    </c:replyMessage>
+  </soap:Body>
+</soap:Envelope>
+]]></system-out>
+  </testcase>
+  <testcase name="saleRequestWithInvalidCurrency" classname="soapreq.thunes.P24Sale" time="1.914">
+    <system-out><![CDATA[<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <wsse:Security xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+      <wsu:Timestamp xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" wsu:Id="Timestamp-82275042">
+        <wsu:Created>2024-03-06T05:24:51.581Z</wsu:Created>
+      </wsu:Timestamp>
+    </wsse:Security>
+  </soap:Header>
+  <soap:Body>
+    <c:replyMessage xmlns:c="urn:schemas-cybersource-com:transaction-data-1.211">
+      <c:merchantReferenceCode>refnumb1234</c:merchantReferenceCode>
+      <c:requestID>7097026910776637803095</c:requestID>
+      <c:decision>ACCEPT</c:decision>
+      <c:reasonCode>100</c:reasonCode>
+      <c:requestToken>AxjnrwSTgLsIlbD1ZEpXANgYwaUqrCo4iyoMyQol1gSCJX2Rf0D+GGTyf5ZxzeQ7P9JwF2ESth6siUrg2SI6</c:requestToken>
+      <c:purchaseTotals>
+        <c:currency>PLN</c:currency>
+      </c:purchaseTotals>
+      <c:apSaleReply>
+        <c:reasonCode>100</c:reasonCode>
+        <c:paymentStatus>pending</c:paymentStatus>
+        <c:responseCode>00001</c:responseCode>
+        <c:merchantURL>https://merchant.redirect.com/url.do?param_utf=%27%22%3C%3E%20%E6%B8%AC%E8%A9%A6%E6%B8%AC&amp;param_url=https%3A%2F%2Fwww.abc.com&amp;param_special=+@#%~_&amp;sign=fdaa1df42b6260a10e2e3f1c0fc87862</c:merchantURL>
+        <c:processorTransactionID>2016011808153910011808153910TR</c:processorTransactionID>
+        <c:reconciliationID>04RU0T8EJALH</c:reconciliationID>
+        <c:amount>20.00</c:amount>
+        <c:processorResponse>00001</c:processorResponse>
+        <c:dateTime>2024-03-06T05:24:51Z</c:dateTime>
+      </c:apSaleReply>
+      <c:reserved>
+        <ics_message xmlns="urn:schemas-cybersource-com:transaction-data:ics">
+          <ap_sale_processor_transaction_id>2016011808153910011808153910TR</ap_sale_processor_transaction_id>
+          <ap_sale_date_time>2024-03-06T052451Z</ap_sale_date_time>
+          <ics_rcode>1</ics_rcode>
+          <ics_rmsg>Request was processed successfully.</ics_rmsg>
+          <ap_sale_return_code>1900000</ap_sale_return_code>
+          <ap_sale_processor_response>00001</ap_sale_processor_response>
+          <ap_sale_response_code>00001</ap_sale_response_code>
+          <ap_sale_rflag>SOK</ap_sale_rflag>
+          <ap_sale_rmsg>Request was processed successfully.</ap_sale_rmsg>
+          <ap_sale_status>PENDING</ap_sale_status>
+          <ap_sale_amount>20.00</ap_sale_amount>
+          <ap_sale_merchant_url>https://merchant.redirect.com/url.do?param_utf=%27%22%3C%3E%20%E6%B8%AC%E8%A9%A6%E6%B8%AC&amp;param_url=https%3A%2F%2Fwww.abc.com&amp;param_special=+@#%~_&amp;sign=fdaa1df42b6260a10e2e3f1c0fc87862</ap_sale_merchant_url>
+          <ics_return_code>1000000</ics_return_code>
+          <ap_sale_rcode>1</ap_sale_rcode>
+          <request_id>7097026910776637803095</request_id>
+          <ap_sale_payment_status>pending</ap_sale_payment_status>
+          <ap_sale.reason_code>100</ap_sale.reason_code>
+          <currency>PLN</currency>
+          <request_token>AxjnrwSTgLsIlbD1ZEpXANgYwaUqrCo4iyoMyQol1gSCJX2Rf0D+GGTyf5ZxzeQ7P9JwF2ESth6siUrg2SI6</request_token>
+          <ics_decision_reason_code>100</ics_decision_reason_code>
+          <ics_rflag>SOK</ics_rflag>
+          <ap_sale_trans_ref_no>04RU0T8EJALH</ap_sale_trans_ref_no>
+          <merchant_ref_number>refnumb1234</merchant_ref_number>
+        </ics_message>
+      </c:reserved>
+    </c:replyMessage>
+  </soap:Body>
+</soap:Envelope>
+Request method:	POST
+Request URI:	https://sl73cgkapq067.visa.com:8443/commerce/1.x/transactionProcessor/
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=text/xml; charset=utf-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:schemas-cybersource-com:transaction-data-1.{{WSDLVersion}}">
+  <soapenv:Header>
+    <wsse:Security soapenv:mustUnderstand="1" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+      <wsse:UsernameToken wsu:Id="UsernameToken-1" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+        <wsse:Username>thunes_cert_so</wsse:Username>
+        <wsse:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText">juB3g2V3sXCKQ5GMb3ERbqUhbTvgVnugNRNPZcd7YadH3yqPuSUdYoi4BajvoEb/S3lSKV1hmtZoLukVWYav78LwSr1250Z7cHvyDZLOAmTERfJubbTu4bvzrHI4uIDnSjnVrvIO6CUZOuo5QrmTEL6+BZEocjrcz8lkw35FRTwT7UnEcCZQ0AdVMZON/AUl/RsYSkMHbEbutLFeBQGb883NDJrsdIuHBnW2uH3XRy42AxId1r5H2VVdjd0g1Cd8nEcAYQW+8JiYEVHHksHPErr41OO+2GOrXwGCXxsjJJ+55lLKtNZqQdkpUIx6nyl2F+4nDhC3QHh7hwbs0qVrWA==</wsse:Password>
+      </wsse:UsernameToken>
+    </wsse:Security>
+  </soapenv:Header>
+  <soapenv:Body xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <requestMessage xmlns="urn:schemas-cybersource-com:transaction-data-1.211">
+      <merchantID>thunes_cert_so</merchantID>
+      <merchantReferenceCode>refnumb1234</merchantReferenceCode>
+      <invoiceHeader>
+        <merchantDescriptor>Online Store</merchantDescriptor>
+      </invoiceHeader>
+      <billTo>
+        <firstName>Badri</firstName>
+        <lastName>R</lastName>
+        <street1>Bangalore</street1>
+        <city>CHENNAI</city>
+        <state>AR</state>
+        <postalCode>75001</postalCode>
+        <country>FR</country>
+        <phoneNumber>+33623456789</phoneNumber>
+        <email>test@thunes.com</email>
+      </billTo>
+      <shipTo>
+        <firstName>Badrinarayanan</firstName>
+        <lastName>Raj</lastName>
+        <street1>KR</street1>
+        <city>Bangalore</city>
+        <state>AR</state>
+        <postalCode>75001</postalCode>
+        <country>FR</country>
+        <phoneNumber>+33623456789</phoneNumber>
+      </shipTo>
+      <purchaseTotals>
+        <currency>ABC</currency>
+        <grandTotalAmount>20</grandTotalAmount>
+      </purchaseTotals>
+      <apPaymentType>PTT</apPaymentType>
+      <apSaleService run="true">
+        <cancelURL>https://www.redirect.url.html?action=cancel</cancelURL>
+        <successURL>https://www.redirect.url.html?action=success</successURL>
+        <failureURL>https://www.redirect.url.html?action=failure</failureURL>
+      </apSaleService>
+    </requestMessage>
+  </soapenv:Body>
+</soapenv:Envelope>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <wsse:Security xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+      <wsu:Timestamp xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" wsu:Id="Timestamp-280387641">
+        <wsu:Created>2024-03-06T05:24:53.454Z</wsu:Created>
+      </wsu:Timestamp>
+    </wsse:Security>
+  </soap:Header>
+  <soap:Body>
+    <c:replyMessage xmlns:c="urn:schemas-cybersource-com:transaction-data-1.211">
+      <c:merchantReferenceCode>refnumb1234</c:merchantReferenceCode>
+      <c:requestID>7097026931606637903095</c:requestID>
+      <c:decision>REJECT</c:decision>
+      <c:reasonCode>102</c:reasonCode>
+      <c:invalidField>c:purchaseTotals/c:currency</c:invalidField>
+      <c:requestToken>AxijrwSTgLsIqKLSJfz3ANhRLrAkEUwv6B/CjN5P8s45vIdn+k4C7CKii0iX89wA9jPf</c:requestToken>
+      <c:apSaleReply>
+        <c:reasonCode>102</c:reasonCode>
+      </c:apSaleReply>
+      <c:reserved>
+        <ics_message xmlns="urn:schemas-cybersource-com:transaction-data:ics">
+          <ap_sale.reason_code>102</ap_sale.reason_code>
+          <invalidfield0>currency</invalidfield0>
+          <merchant_ref_number>refnumb1234</merchant_ref_number>
+          <ap_sale_rmsg>The currency value is either invalid or missing</ap_sale_rmsg>
+          <request_id>7097026931606637903095</request_id>
+          <ap_sale_rcode>0</ap_sale_rcode>
+          <ics_rcode>0</ics_rcode>
+          <ap_sale_return_code>1906004</ap_sale_return_code>
+          <ics_decision_reason_code>102</ics_decision_reason_code>
+          <ap_sale_rflag>DINVALIDDATA</ap_sale_rflag>
+          <ics_rflag>DINVALIDDATA</ics_rflag>
+          <ics_return_code>1000000</ics_return_code>
+          <request_token>AxijrwSTgLsIqKLSJfz3ANhRLrAkEUwv6B/CjN5P8s45vIdn+k4C7CKii0iX89wA9jPf</request_token>
+          <ics_rmsg>The currency value is either invalid or missing</ics_rmsg>
+          <parsed_field_names/>
+        </ics_message>
+      </c:reserved>
+    </c:replyMessage>
+  </soap:Body>
+</soap:Envelope>
+]]></system-out>
+  </testcase>
+  <testcase name="saleRequestWithLongerFirstNameLength" classname="soapreq.thunes.P24Sale" time="1.552">
+    <system-out><![CDATA[<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <wsse:Security xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+      <wsu:Timestamp xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" wsu:Id="Timestamp-280387641">
+        <wsu:Created>2024-03-06T05:24:53.454Z</wsu:Created>
+      </wsu:Timestamp>
+    </wsse:Security>
+  </soap:Header>
+  <soap:Body>
+    <c:replyMessage xmlns:c="urn:schemas-cybersource-com:transaction-data-1.211">
+      <c:merchantReferenceCode>refnumb1234</c:merchantReferenceCode>
+      <c:requestID>7097026931606637903095</c:requestID>
+      <c:decision>REJECT</c:decision>
+      <c:reasonCode>102</c:reasonCode>
+      <c:invalidField>c:purchaseTotals/c:currency</c:invalidField>
+      <c:requestToken>AxijrwSTgLsIqKLSJfz3ANhRLrAkEUwv6B/CjN5P8s45vIdn+k4C7CKii0iX89wA9jPf</c:requestToken>
+      <c:apSaleReply>
+        <c:reasonCode>102</c:reasonCode>
+      </c:apSaleReply>
+      <c:reserved>
+        <ics_message xmlns="urn:schemas-cybersource-com:transaction-data:ics">
+          <ap_sale.reason_code>102</ap_sale.reason_code>
+          <invalidfield0>currency</invalidfield0>
+          <merchant_ref_number>refnumb1234</merchant_ref_number>
+          <ap_sale_rmsg>The currency value is either invalid or missing</ap_sale_rmsg>
+          <request_id>7097026931606637903095</request_id>
+          <ap_sale_rcode>0</ap_sale_rcode>
+          <ics_rcode>0</ics_rcode>
+          <ap_sale_return_code>1906004</ap_sale_return_code>
+          <ics_decision_reason_code>102</ics_decision_reason_code>
+          <ap_sale_rflag>DINVALIDDATA</ap_sale_rflag>
+          <ics_rflag>DINVALIDDATA</ics_rflag>
+          <ics_return_code>1000000</ics_return_code>
+          <request_token>AxijrwSTgLsIqKLSJfz3ANhRLrAkEUwv6B/CjN5P8s45vIdn+k4C7CKii0iX89wA9jPf</request_token>
+          <ics_rmsg>The currency value is either invalid or missing</ics_rmsg>
+          <parsed_field_names/>
+        </ics_message>
+      </c:reserved>
+    </c:replyMessage>
+  </soap:Body>
+</soap:Envelope>
+Request method:	POST
+Request URI:	https://sl73cgkapq067.visa.com:8443/commerce/1.x/transactionProcessor/
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=text/xml; charset=utf-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:schemas-cybersource-com:transaction-data-1.{{WSDLVersion}}">
+  <soapenv:Header>
+    <wsse:Security soapenv:mustUnderstand="1" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+      <wsse:UsernameToken wsu:Id="UsernameToken-1" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+        <wsse:Username>thunes_cert_so</wsse:Username>
+        <wsse:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText">juB3g2V3sXCKQ5GMb3ERbqUhbTvgVnugNRNPZcd7YadH3yqPuSUdYoi4BajvoEb/S3lSKV1hmtZoLukVWYav78LwSr1250Z7cHvyDZLOAmTERfJubbTu4bvzrHI4uIDnSjnVrvIO6CUZOuo5QrmTEL6+BZEocjrcz8lkw35FRTwT7UnEcCZQ0AdVMZON/AUl/RsYSkMHbEbutLFeBQGb883NDJrsdIuHBnW2uH3XRy42AxId1r5H2VVdjd0g1Cd8nEcAYQW+8JiYEVHHksHPErr41OO+2GOrXwGCXxsjJJ+55lLKtNZqQdkpUIx6nyl2F+4nDhC3QHh7hwbs0qVrWA==</wsse:Password>
+      </wsse:UsernameToken>
+    </wsse:Security>
+  </soapenv:Header>
+  <soapenv:Body xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <requestMessage xmlns="urn:schemas-cybersource-com:transaction-data-1.211">
+      <merchantID>thunes_cert_so</merchantID>
+      <merchantReferenceCode>refnumb1234</merchantReferenceCode>
+      <invoiceHeader>
+        <merchantDescriptor>Online Store</merchantDescriptor>
+      </invoiceHeader>
+      <billTo>
+        <firstName>Badrijergjerngjerbgjrebgjerbgrjebgrehjbgerbgujrehbgjuerhjuhreuhguerhguerhguerghujrebreujgbuerhfguerhgfurehfguerjhnvujervbuejrbvujerbhvujrehguherugfherugh</firstName>
+        <lastName>R</lastName>
+        <street1>Bangalore</street1>
+        <city>CHENNAI</city>
+        <state>AR</state>
+        <postalCode>75001</postalCode>
+        <country>FR</country>
+        <phoneNumber>+33623456789</phoneNumber>
+        <email>test@thunes.com</email>
+      </billTo>
+      <shipTo>
+        <firstName>Badrinarayanan</firstName>
+        <lastName>Raj</lastName>
+        <street1>KR</street1>
+        <city>Bangalore</city>
+        <state>AR</state>
+        <postalCode>75001</postalCode>
+        <country>FR</country>
+        <phoneNumber>+33623456789</phoneNumber>
+      </shipTo>
+      <purchaseTotals>
+        <currency>PLN</currency>
+        <grandTotalAmount>20</grandTotalAmount>
+      </purchaseTotals>
+      <apPaymentType>PTT</apPaymentType>
+      <apSaleService run="true">
+        <cancelURL>https://www.redirect.url.html?action=cancel</cancelURL>
+        <successURL>https://www.redirect.url.html?action=success</successURL>
+        <failureURL>https://www.redirect.url.html?action=failure</failureURL>
+      </apSaleService>
+    </requestMessage>
+  </soapenv:Body>
+</soapenv:Envelope>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <wsse:Security xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+      <wsu:Timestamp xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" wsu:Id="Timestamp-485738275">
+        <wsu:Created>2024-03-06T05:24:55.095Z</wsu:Created>
+      </wsu:Timestamp>
+    </wsse:Security>
+  </soap:Header>
+  <soap:Body>
+    <c:replyMessage xmlns:c="urn:schemas-cybersource-com:transaction-data-1.211">
+      <c:merchantReferenceCode>refnumb1234</c:merchantReferenceCode>
+      <c:requestID>7097026948766638003095</c:requestID>
+      <c:decision>REJECT</c:decision>
+      <c:reasonCode>102</c:reasonCode>
+      <c:invalidField>c:billTo/c:firstName</c:invalidField>
+      <c:requestToken>AxjjrwSTgLsIuD4x29OXANhRLrAkEXHsi/oH8KM3k/yzjm8h2f6TgLsIuD4x29OXAAAA5R2C</c:requestToken>
+      <c:apSaleReply>
+        <c:reasonCode>102</c:reasonCode>
+      </c:apSaleReply>
+      <c:reserved>
+        <ics_message xmlns="urn:schemas-cybersource-com:transaction-data:ics">
+          <ap_sale.reason_code>102</ap_sale.reason_code>
+          <invalidfield0>customer_firstname</invalidfield0>
+          <merchant_ref_number>refnumb1234</merchant_ref_number>
+          <ap_sale_rmsg>This field customer_firstname is invalid.</ap_sale_rmsg>
+          <request_id>7097026948766638003095</request_id>
+          <ap_sale_rcode>0</ap_sale_rcode>
+          <ics_rcode>0</ics_rcode>
+          <ap_sale_return_code>1272128</ap_sale_return_code>
+          <ics_decision_reason_code>102</ics_decision_reason_code>
+          <ap_sale_rflag>DINVALIDDATA</ap_sale_rflag>
+          <ics_rflag>DINVALIDDATA</ics_rflag>
+          <ics_return_code>1000000</ics_return_code>
+          <request_token>AxjjrwSTgLsIuD4x29OXANhRLrAkEXHsi/oH8KM3k/yzjm8h2f6TgLsIuD4x29OXAAAA5R2C</request_token>
+          <ics_rmsg>This field customer_firstname is invalid.</ics_rmsg>
+          <parsed_field_names/>
+        </ics_message>
+      </c:reserved>
+    </c:replyMessage>
+  </soap:Body>
+</soap:Envelope>
+]]></system-out>
+  </testcase>
+  <testcase name="saleRequestWithLongerPhoneNumberLength" classname="soapreq.thunes.P24Sale" time="1.3">
+    <system-out><![CDATA[<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <wsse:Security xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+      <wsu:Timestamp xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" wsu:Id="Timestamp-485738275">
+        <wsu:Created>2024-03-06T05:24:55.095Z</wsu:Created>
+      </wsu:Timestamp>
+    </wsse:Security>
+  </soap:Header>
+  <soap:Body>
+    <c:replyMessage xmlns:c="urn:schemas-cybersource-com:transaction-data-1.211">
+      <c:merchantReferenceCode>refnumb1234</c:merchantReferenceCode>
+      <c:requestID>7097026948766638003095</c:requestID>
+      <c:decision>REJECT</c:decision>
+      <c:reasonCode>102</c:reasonCode>
+      <c:invalidField>c:billTo/c:firstName</c:invalidField>
+      <c:requestToken>AxjjrwSTgLsIuD4x29OXANhRLrAkEXHsi/oH8KM3k/yzjm8h2f6TgLsIuD4x29OXAAAA5R2C</c:requestToken>
+      <c:apSaleReply>
+        <c:reasonCode>102</c:reasonCode>
+      </c:apSaleReply>
+      <c:reserved>
+        <ics_message xmlns="urn:schemas-cybersource-com:transaction-data:ics">
+          <ap_sale.reason_code>102</ap_sale.reason_code>
+          <invalidfield0>customer_firstname</invalidfield0>
+          <merchant_ref_number>refnumb1234</merchant_ref_number>
+          <ap_sale_rmsg>This field customer_firstname is invalid.</ap_sale_rmsg>
+          <request_id>7097026948766638003095</request_id>
+          <ap_sale_rcode>0</ap_sale_rcode>
+          <ics_rcode>0</ics_rcode>
+          <ap_sale_return_code>1272128</ap_sale_return_code>
+          <ics_decision_reason_code>102</ics_decision_reason_code>
+          <ap_sale_rflag>DINVALIDDATA</ap_sale_rflag>
+          <ics_rflag>DINVALIDDATA</ics_rflag>
+          <ics_return_code>1000000</ics_return_code>
+          <request_token>AxjjrwSTgLsIuD4x29OXANhRLrAkEXHsi/oH8KM3k/yzjm8h2f6TgLsIuD4x29OXAAAA5R2C</request_token>
+          <ics_rmsg>This field customer_firstname is invalid.</ics_rmsg>
+          <parsed_field_names/>
+        </ics_message>
+      </c:reserved>
+    </c:replyMessage>
+  </soap:Body>
+</soap:Envelope>
+Request method:	POST
+Request URI:	https://sl73cgkapq067.visa.com:8443/commerce/1.x/transactionProcessor/
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=text/xml; charset=utf-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:schemas-cybersource-com:transaction-data-1.{{WSDLVersion}}">
+  <soapenv:Header>
+    <wsse:Security soapenv:mustUnderstand="1" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+      <wsse:UsernameToken wsu:Id="UsernameToken-1" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+        <wsse:Username>thunes_cert_so</wsse:Username>
+        <wsse:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText">juB3g2V3sXCKQ5GMb3ERbqUhbTvgVnugNRNPZcd7YadH3yqPuSUdYoi4BajvoEb/S3lSKV1hmtZoLukVWYav78LwSr1250Z7cHvyDZLOAmTERfJubbTu4bvzrHI4uIDnSjnVrvIO6CUZOuo5QrmTEL6+BZEocjrcz8lkw35FRTwT7UnEcCZQ0AdVMZON/AUl/RsYSkMHbEbutLFeBQGb883NDJrsdIuHBnW2uH3XRy42AxId1r5H2VVdjd0g1Cd8nEcAYQW+8JiYEVHHksHPErr41OO+2GOrXwGCXxsjJJ+55lLKtNZqQdkpUIx6nyl2F+4nDhC3QHh7hwbs0qVrWA==</wsse:Password>
+      </wsse:UsernameToken>
+    </wsse:Security>
+  </soapenv:Header>
+  <soapenv:Body xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <requestMessage xmlns="urn:schemas-cybersource-com:transaction-data-1.211">
+      <merchantID>thunes_cert_so</merchantID>
+      <merchantReferenceCode>refnumb1234</merchantReferenceCode>
+      <invoiceHeader>
+        <merchantDescriptor>Online Store</merchantDescriptor>
+      </invoiceHeader>
+      <billTo>
+        <firstName>Badri</firstName>
+        <lastName>R</lastName>
+        <street1>Bangalore</street1>
+        <city>CHENNAI</city>
+        <state>AR</state>
+        <postalCode>75001</postalCode>
+        <country>FR</country>
+        <phoneNumber>+33623456789847368546846476847568457698469348538475386847683443873485734856346458684567458674586745867</phoneNumber>
+        <email>test@thunes.com</email>
+      </billTo>
+      <shipTo>
+        <firstName>Badrinarayanan</firstName>
+        <lastName>Raj</lastName>
+        <street1>KR</street1>
+        <city>Bangalore</city>
+        <state>AR</state>
+        <postalCode>75001</postalCode>
+        <country>FR</country>
+        <phoneNumber>+33623456789</phoneNumber>
+      </shipTo>
+      <purchaseTotals>
+        <currency>PLN</currency>
+        <grandTotalAmount>20</grandTotalAmount>
+      </purchaseTotals>
+      <apPaymentType>PTT</apPaymentType>
+      <apSaleService run="true">
+        <cancelURL>https://www.redirect.url.html?action=cancel</cancelURL>
+        <successURL>https://www.redirect.url.html?action=success</successURL>
+        <failureURL>https://www.redirect.url.html?action=failure</failureURL>
+      </apSaleService>
+    </requestMessage>
+  </soapenv:Body>
+</soapenv:Envelope>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <wsse:Security xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+      <wsu:Timestamp xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" wsu:Id="Timestamp-2006340132">
+        <wsu:Created>2024-03-06T05:24:56.398Z</wsu:Created>
+      </wsu:Timestamp>
+    </wsse:Security>
+  </soap:Header>
+  <soap:Body>
+    <c:replyMessage xmlns:c="urn:schemas-cybersource-com:transaction-data-1.211">
+      <c:requestID>7097026963306638103095</c:requestID>
+      <c:decision>REJECT</c:decision>
+      <c:reasonCode>102</c:reasonCode>
+      <c:invalidField>c:billTo/c:phoneNumber</c:invalidField>
+      <c:requestToken>AxhBLwSTgLsIxXeNZlI39k/hRm8n+Wcc3kOz/AAA0Bk9</c:requestToken>
+      <c:reserved>
+        <ics_message xmlns="urn:schemas-cybersource-com:transaction-data:ics">
+          <invalidfield0>customer_phone</invalidfield0>
+          <request_id>7097026963306638103095</request_id>
+          <ics_decision_reason_code>102</ics_decision_reason_code>
+          <request_token>AxhBLwSTgLsIxXeNZlI39k/hRm8n+Wcc3kOz/AAA0Bk9</request_token>
+          <ics_rcode>0</ics_rcode>
+          <ics_rflag>DINVALIDDATA</ics_rflag>
+          <ics_return_code>1001000</ics_return_code>
+          <ics_rmsg>The following request field(s) is either invalid or missing: customer_phone</ics_rmsg>
+          <parsed_field_names/>
+        </ics_message>
+      </c:reserved>
+    </c:replyMessage>
+  </soap:Body>
+</soap:Envelope>
+]]></system-out>
+  </testcase>
+  <testcase name="saleRequestWithNegativeAmount" classname="soapreq.thunes.P24Sale" time="1.338">
+    <system-out><![CDATA[<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <wsse:Security xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+      <wsu:Timestamp xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" wsu:Id="Timestamp-2006340132">
+        <wsu:Created>2024-03-06T05:24:56.398Z</wsu:Created>
+      </wsu:Timestamp>
+    </wsse:Security>
+  </soap:Header>
+  <soap:Body>
+    <c:replyMessage xmlns:c="urn:schemas-cybersource-com:transaction-data-1.211">
+      <c:requestID>7097026963306638103095</c:requestID>
+      <c:decision>REJECT</c:decision>
+      <c:reasonCode>102</c:reasonCode>
+      <c:invalidField>c:billTo/c:phoneNumber</c:invalidField>
+      <c:requestToken>AxhBLwSTgLsIxXeNZlI39k/hRm8n+Wcc3kOz/AAA0Bk9</c:requestToken>
+      <c:reserved>
+        <ics_message xmlns="urn:schemas-cybersource-com:transaction-data:ics">
+          <invalidfield0>customer_phone</invalidfield0>
+          <request_id>7097026963306638103095</request_id>
+          <ics_decision_reason_code>102</ics_decision_reason_code>
+          <request_token>AxhBLwSTgLsIxXeNZlI39k/hRm8n+Wcc3kOz/AAA0Bk9</request_token>
+          <ics_rcode>0</ics_rcode>
+          <ics_rflag>DINVALIDDATA</ics_rflag>
+          <ics_return_code>1001000</ics_return_code>
+          <ics_rmsg>The following request field(s) is either invalid or missing: customer_phone</ics_rmsg>
+          <parsed_field_names/>
+        </ics_message>
+      </c:reserved>
+    </c:replyMessage>
+  </soap:Body>
+</soap:Envelope>
+Request method:	POST
+Request URI:	https://sl73cgkapq067.visa.com:8443/commerce/1.x/transactionProcessor/
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=text/xml; charset=utf-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:schemas-cybersource-com:transaction-data-1.{{WSDLVersion}}">
+  <soapenv:Header>
+    <wsse:Security soapenv:mustUnderstand="1" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+      <wsse:UsernameToken wsu:Id="UsernameToken-1" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+        <wsse:Username>thunes_cert_so</wsse:Username>
+        <wsse:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText">juB3g2V3sXCKQ5GMb3ERbqUhbTvgVnugNRNPZcd7YadH3yqPuSUdYoi4BajvoEb/S3lSKV1hmtZoLukVWYav78LwSr1250Z7cHvyDZLOAmTERfJubbTu4bvzrHI4uIDnSjnVrvIO6CUZOuo5QrmTEL6+BZEocjrcz8lkw35FRTwT7UnEcCZQ0AdVMZON/AUl/RsYSkMHbEbutLFeBQGb883NDJrsdIuHBnW2uH3XRy42AxId1r5H2VVdjd0g1Cd8nEcAYQW+8JiYEVHHksHPErr41OO+2GOrXwGCXxsjJJ+55lLKtNZqQdkpUIx6nyl2F+4nDhC3QHh7hwbs0qVrWA==</wsse:Password>
+      </wsse:UsernameToken>
+    </wsse:Security>
+  </soapenv:Header>
+  <soapenv:Body xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <requestMessage xmlns="urn:schemas-cybersource-com:transaction-data-1.211">
+      <merchantID>thunes_cert_so</merchantID>
+      <merchantReferenceCode>refnumb1234</merchantReferenceCode>
+      <invoiceHeader>
+        <merchantDescriptor>Online Store</merchantDescriptor>
+      </invoiceHeader>
+      <billTo>
+        <firstName>Badri</firstName>
+        <lastName>R</lastName>
+        <street1>Bangalore</street1>
+        <city>CHENNAI</city>
+        <state>AR</state>
+        <postalCode>75001</postalCode>
+        <country>FR</country>
+        <phoneNumber>+33623456789</phoneNumber>
+        <email>test@thunes.com</email>
+      </billTo>
+      <shipTo>
+        <firstName>Badrinarayanan</firstName>
+        <lastName>Raj</lastName>
+        <street1>KR</street1>
+        <city>Bangalore</city>
+        <state>AR</state>
+        <postalCode>75001</postalCode>
+        <country>FR</country>
+        <phoneNumber>+33623456789</phoneNumber>
+      </shipTo>
+      <purchaseTotals>
+        <currency>PLN</currency>
+        <grandTotalAmount>-20</grandTotalAmount>
+      </purchaseTotals>
+      <apPaymentType>PTT</apPaymentType>
+      <apSaleService run="true">
+        <cancelURL>https://www.redirect.url.html?action=cancel</cancelURL>
+        <successURL>https://www.redirect.url.html?action=success</successURL>
+        <failureURL>https://www.redirect.url.html?action=failure</failureURL>
+      </apSaleService>
+    </requestMessage>
+  </soapenv:Body>
+</soapenv:Envelope>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <wsse:Security xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+      <wsu:Timestamp xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" wsu:Id="Timestamp-1233466923">
+        <wsu:Created>2024-03-06T05:24:57.729Z</wsu:Created>
+      </wsu:Timestamp>
+    </wsse:Security>
+  </soap:Header>
+  <soap:Body>
+    <c:replyMessage xmlns:c="urn:schemas-cybersource-com:transaction-data-1.211">
+      <c:merchantReferenceCode>refnumb1234</c:merchantReferenceCode>
+      <c:requestID>7097026976296638203095</c:requestID>
+      <c:decision>REJECT</c:decision>
+      <c:reasonCode>102</c:reasonCode>
+      <c:invalidField>c:grandTotalAmount</c:invalidField>
+      <c:requestToken>AxjjrwSTgLsI0UgFvcTXANhRLrAkEY/sqgYH8KM3k/yzjm8h2f6TgLsI0UgFvcTXAAAA7RY9</c:requestToken>
+      <c:apSaleReply>
+        <c:reasonCode>102</c:reasonCode>
+      </c:apSaleReply>
+      <c:reserved>
+        <ics_message xmlns="urn:schemas-cybersource-com:transaction-data:ics">
+          <ap_sale.reason_code>102</ap_sale.reason_code>
+          <invalidfield0>grand_total_amount</invalidfield0>
+          <merchant_ref_number>refnumb1234</merchant_ref_number>
+          <ap_sale_rmsg>This field grand_total_amount is invalid.</ap_sale_rmsg>
+          <request_id>7097026976296638203095</request_id>
+          <ap_sale_rcode>0</ap_sale_rcode>
+          <ics_rcode>0</ics_rcode>
+          <ap_sale_return_code>1272128</ap_sale_return_code>
+          <ics_decision_reason_code>102</ics_decision_reason_code>
+          <ap_sale_rflag>DINVALIDDATA</ap_sale_rflag>
+          <ics_rflag>DINVALIDDATA</ics_rflag>
+          <ics_return_code>1000000</ics_return_code>
+          <request_token>AxjjrwSTgLsI0UgFvcTXANhRLrAkEY/sqgYH8KM3k/yzjm8h2f6TgLsI0UgFvcTXAAAA7RY9</request_token>
+          <ics_rmsg>This field grand_total_amount is invalid.</ics_rmsg>
+          <parsed_field_names/>
+        </ics_message>
+      </c:reserved>
+    </c:replyMessage>
+  </soap:Body>
+</soap:Envelope>
+]]></system-out>
+  </testcase>
+  <testcase name="saleRequestWithValidValues" classname="soapreq.thunes.P24Sale" time="2.485">
+    <system-out><![CDATA[<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <wsse:Security xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+      <wsu:Timestamp xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" wsu:Id="Timestamp-1233466923">
+        <wsu:Created>2024-03-06T05:24:57.729Z</wsu:Created>
+      </wsu:Timestamp>
+    </wsse:Security>
+  </soap:Header>
+  <soap:Body>
+    <c:replyMessage xmlns:c="urn:schemas-cybersource-com:transaction-data-1.211">
+      <c:merchantReferenceCode>refnumb1234</c:merchantReferenceCode>
+      <c:requestID>7097026976296638203095</c:requestID>
+      <c:decision>REJECT</c:decision>
+      <c:reasonCode>102</c:reasonCode>
+      <c:invalidField>c:grandTotalAmount</c:invalidField>
+      <c:requestToken>AxjjrwSTgLsI0UgFvcTXANhRLrAkEY/sqgYH8KM3k/yzjm8h2f6TgLsI0UgFvcTXAAAA7RY9</c:requestToken>
+      <c:apSaleReply>
+        <c:reasonCode>102</c:reasonCode>
+      </c:apSaleReply>
+      <c:reserved>
+        <ics_message xmlns="urn:schemas-cybersource-com:transaction-data:ics">
+          <ap_sale.reason_code>102</ap_sale.reason_code>
+          <invalidfield0>grand_total_amount</invalidfield0>
+          <merchant_ref_number>refnumb1234</merchant_ref_number>
+          <ap_sale_rmsg>This field grand_total_amount is invalid.</ap_sale_rmsg>
+          <request_id>7097026976296638203095</request_id>
+          <ap_sale_rcode>0</ap_sale_rcode>
+          <ics_rcode>0</ics_rcode>
+          <ap_sale_return_code>1272128</ap_sale_return_code>
+          <ics_decision_reason_code>102</ics_decision_reason_code>
+          <ap_sale_rflag>DINVALIDDATA</ap_sale_rflag>
+          <ics_rflag>DINVALIDDATA</ics_rflag>
+          <ics_return_code>1000000</ics_return_code>
+          <request_token>AxjjrwSTgLsI0UgFvcTXANhRLrAkEY/sqgYH8KM3k/yzjm8h2f6TgLsI0UgFvcTXAAAA7RY9</request_token>
+          <ics_rmsg>This field grand_total_amount is invalid.</ics_rmsg>
+          <parsed_field_names/>
+        </ics_message>
+      </c:reserved>
+    </c:replyMessage>
+  </soap:Body>
+</soap:Envelope>
+Request method:	POST
+Request URI:	https://sl73cgkapq067.visa.com:8443/commerce/1.x/transactionProcessor/
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=text/xml; charset=utf-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:schemas-cybersource-com:transaction-data-1.{{WSDLVersion}}">
+  <soapenv:Header>
+    <wsse:Security soapenv:mustUnderstand="1" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+      <wsse:UsernameToken wsu:Id="UsernameToken-1" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+        <wsse:Username>thunes_cert_so</wsse:Username>
+        <wsse:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText">juB3g2V3sXCKQ5GMb3ERbqUhbTvgVnugNRNPZcd7YadH3yqPuSUdYoi4BajvoEb/S3lSKV1hmtZoLukVWYav78LwSr1250Z7cHvyDZLOAmTERfJubbTu4bvzrHI4uIDnSjnVrvIO6CUZOuo5QrmTEL6+BZEocjrcz8lkw35FRTwT7UnEcCZQ0AdVMZON/AUl/RsYSkMHbEbutLFeBQGb883NDJrsdIuHBnW2uH3XRy42AxId1r5H2VVdjd0g1Cd8nEcAYQW+8JiYEVHHksHPErr41OO+2GOrXwGCXxsjJJ+55lLKtNZqQdkpUIx6nyl2F+4nDhC3QHh7hwbs0qVrWA==</wsse:Password>
+      </wsse:UsernameToken>
+    </wsse:Security>
+  </soapenv:Header>
+  <soapenv:Body xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <requestMessage xmlns="urn:schemas-cybersource-com:transaction-data-1.211">
+      <merchantID>thunes_cert_so</merchantID>
+      <merchantReferenceCode>refnumb1234</merchantReferenceCode>
+      <invoiceHeader>
+        <merchantDescriptor>Online Store</merchantDescriptor>
+      </invoiceHeader>
+      <billTo>
+        <firstName>Badri</firstName>
+        <lastName>R</lastName>
+        <street1>Bangalore</street1>
+        <city>CHENNAI</city>
+        <state>AR</state>
+        <postalCode>75001</postalCode>
+        <country>FR</country>
+        <phoneNumber>+33623456789</phoneNumber>
+        <email>test@thunes.com</email>
+      </billTo>
+      <shipTo>
+        <firstName>Badrinarayanan</firstName>
+        <lastName>Raj</lastName>
+        <street1>KR</street1>
+        <city>Bangalore</city>
+        <state>AR</state>
+        <postalCode>75001</postalCode>
+        <country>FR</country>
+        <phoneNumber>+33623456789</phoneNumber>
+      </shipTo>
+      <purchaseTotals>
+        <currency>PLN</currency>
+        <grandTotalAmount>20</grandTotalAmount>
+      </purchaseTotals>
+      <apPaymentType>PTT</apPaymentType>
+      <apSaleService run="true">
+        <cancelURL>https://www.redirect.url.html?action=cancel</cancelURL>
+        <successURL>https://www.redirect.url.html?action=success</successURL>
+        <failureURL>https://www.redirect.url.html?action=failure</failureURL>
+      </apSaleService>
+    </requestMessage>
+  </soapenv:Body>
+</soapenv:Envelope>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <wsse:Security xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+      <wsu:Timestamp xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" wsu:Id="Timestamp-1584241611">
+        <wsu:Created>2024-03-06T05:25:00.144Z</wsu:Created>
+      </wsu:Timestamp>
+    </wsse:Security>
+  </soap:Header>
+  <soap:Body>
+    <c:replyMessage xmlns:c="urn:schemas-cybersource-com:transaction-data-1.211">
+      <c:merchantReferenceCode>refnumb1234</c:merchantReferenceCode>
+      <c:requestID>7097026989296638303095</c:requestID>
+      <c:decision>ACCEPT</c:decision>
+      <c:reasonCode>100</c:reasonCode>
+      <c:requestToken>AxjnrwSTgLsI3RrSIRt3ANgYwaUqrCo4iyoMyWol1gSCNX2Rf0D+GGTyf5ZxzeQ7P9JwF2Ebo1pEI27gKSc+</c:requestToken>
+      <c:purchaseTotals>
+        <c:currency>PLN</c:currency>
+      </c:purchaseTotals>
+      <c:apSaleReply>
+        <c:reasonCode>100</c:reasonCode>
+        <c:paymentStatus>pending</c:paymentStatus>
+        <c:responseCode>00001</c:responseCode>
+        <c:merchantURL>https://merchant.redirect.com/url.do?param_utf=%27%22%3C%3E%20%E6%B8%AC%E8%A9%A6%E6%B8%AC&amp;param_url=https%3A%2F%2Fwww.abc.com&amp;param_special=+@#%~_&amp;sign=fdaa1df42b6260a10e2e3f1c0fc87862</c:merchantURL>
+        <c:processorTransactionID>2016011808153910011808153910TR</c:processorTransactionID>
+        <c:reconciliationID>04RU0T8EJALK</c:reconciliationID>
+        <c:amount>20.00</c:amount>
+        <c:processorResponse>00001</c:processorResponse>
+        <c:dateTime>2024-03-06T05:25:00Z</c:dateTime>
+      </c:apSaleReply>
+      <c:reserved>
+        <ics_message xmlns="urn:schemas-cybersource-com:transaction-data:ics">
+          <ap_sale_processor_transaction_id>2016011808153910011808153910TR</ap_sale_processor_transaction_id>
+          <ap_sale_date_time>2024-03-06T052500Z</ap_sale_date_time>
+          <ics_rcode>1</ics_rcode>
+          <ics_rmsg>Request was processed successfully.</ics_rmsg>
+          <ap_sale_return_code>1900000</ap_sale_return_code>
+          <ap_sale_processor_response>00001</ap_sale_processor_response>
+          <ap_sale_response_code>00001</ap_sale_response_code>
+          <ap_sale_rflag>SOK</ap_sale_rflag>
+          <ap_sale_rmsg>Request was processed successfully.</ap_sale_rmsg>
+          <ap_sale_status>PENDING</ap_sale_status>
+          <ap_sale_amount>20.00</ap_sale_amount>
+          <ap_sale_merchant_url>https://merchant.redirect.com/url.do?param_utf=%27%22%3C%3E%20%E6%B8%AC%E8%A9%A6%E6%B8%AC&amp;param_url=https%3A%2F%2Fwww.abc.com&amp;param_special=+@#%~_&amp;sign=fdaa1df42b6260a10e2e3f1c0fc87862</ap_sale_merchant_url>
+          <ics_return_code>1000000</ics_return_code>
+          <ap_sale_rcode>1</ap_sale_rcode>
+          <request_id>7097026989296638303095</request_id>
+          <ap_sale_payment_status>pending</ap_sale_payment_status>
+          <ap_sale.reason_code>100</ap_sale.reason_code>
+          <currency>PLN</currency>
+          <request_token>AxjnrwSTgLsI3RrSIRt3ANgYwaUqrCo4iyoMyWol1gSCNX2Rf0D+GGTyf5ZxzeQ7P9JwF2Ebo1pEI27gKSc+</request_token>
+          <ics_decision_reason_code>100</ics_decision_reason_code>
+          <ics_rflag>SOK</ics_rflag>
+          <ap_sale_trans_ref_no>04RU0T8EJALK</ap_sale_trans_ref_no>
+          <merchant_ref_number>refnumb1234</merchant_ref_number>
+        </ics_message>
+      </c:reserved>
+    </c:replyMessage>
+  </soap:Body>
+</soap:Envelope>
+]]></system-out>
+  </testcase>
+</testsuite>

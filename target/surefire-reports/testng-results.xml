@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="7" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-06T10:54:44 IST" name="Suite" finished-at="2024-03-06T10:55:00 IST" duration-ms="15926">
+    <groups>
+    </groups>
+    <test started-at="2024-03-06T10:54:44 IST" name="Sale" finished-at="2024-03-06T10:55:00 IST" duration-ms="15926">
+      <class name="soapreq.thunes.P24Sale">
+        <test-method is-config="true" signature="initSelenimDriver()[pri:0, instance:soapreq.thunes.P24Sale@235ecd9f]" started-at="2024-03-06T10:54:44 IST" name="initSelenimDriver" finished-at="2024-03-06T10:54:44 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initSelenimDriver -->
+        <test-method signature="saleRequestWithEmptyApPaymentType()[pri:0, instance:soapreq.thunes.P24Sale@235ecd9f]" started-at="2024-03-06T10:54:44 IST" name="saleRequestWithEmptyApPaymentType" finished-at="2024-03-06T10:54:46 IST" duration-ms="2456" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saleRequestWithEmptyApPaymentType -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:soapreq.thunes.P24Sale@235ecd9f]" started-at="2024-03-06T10:54:46 IST" name="tearDown" finished-at="2024-03-06T10:54:46 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=saleRequestWithEmptyApPaymentType status=SUCCESS method=P24Sale.saleRequestWithEmptyApPaymentType()[pri:0, instance:soapreq.thunes.P24Sale@235ecd9f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="saleRequestWithEmptyBillToFields()[pri:0, instance:soapreq.thunes.P24Sale@235ecd9f]" started-at="2024-03-06T10:54:46 IST" name="saleRequestWithEmptyBillToFields" finished-at="2024-03-06T10:54:48 IST" duration-ms="1690" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [REJECT] but found [ACCEPT]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [REJECT] but found [ACCEPT]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at soapreq.thunes.P24Sale.saleRequestWithEmptyBillToFields(P24Sale.java:148)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:829)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saleRequestWithEmptyBillToFields -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:soapreq.thunes.P24Sale@235ecd9f]" started-at="2024-03-06T10:54:48 IST" name="tearDown" finished-at="2024-03-06T10:54:48 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=saleRequestWithEmptyBillToFields status=FAILURE method=P24Sale.saleRequestWithEmptyBillToFields()[pri:0, instance:soapreq.thunes.P24Sale@235ecd9f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="saleRequestWithEmptyCurrency()[pri:0, instance:soapreq.thunes.P24Sale@235ecd9f]" started-at="2024-03-06T10:54:48 IST" name="saleRequestWithEmptyCurrency" finished-at="2024-03-06T10:54:49 IST" duration-ms="1369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saleRequestWithEmptyCurrency -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:soapreq.thunes.P24Sale@235ecd9f]" started-at="2024-03-06T10:54:49 IST" name="tearDown" finished-at="2024-03-06T10:54:49 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=saleRequestWithEmptyCurrency status=SUCCESS method=P24Sale.saleRequestWithEmptyCurrency()[pri:0, instance:soapreq.thunes.P24Sale@235ecd9f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="saleRequestWithEmptyShipToFields()[pri:0, instance:soapreq.thunes.P24Sale@235ecd9f]" started-at="2024-03-06T10:54:49 IST" name="saleRequestWithEmptyShipToFields" finished-at="2024-03-06T10:54:51 IST" duration-ms="1771" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [REJECT] but found [ACCEPT]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [REJECT] but found [ACCEPT]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at soapreq.thunes.P24Sale.saleRequestWithEmptyShipToFields(P24Sale.java:164)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:829)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saleRequestWithEmptyShipToFields -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:soapreq.thunes.P24Sale@235ecd9f]" started-at="2024-03-06T10:54:51 IST" name="tearDown" finished-at="2024-03-06T10:54:51 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=saleRequestWithEmptyShipToFields status=FAILURE method=P24Sale.saleRequestWithEmptyShipToFields()[pri:0, instance:soapreq.thunes.P24Sale@235ecd9f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="saleRequestWithInvalidCurrency()[pri:0, instance:soapreq.thunes.P24Sale@235ecd9f]" started-at="2024-03-06T10:54:51 IST" name="saleRequestWithInvalidCurrency" finished-at="2024-03-06T10:54:53 IST" duration-ms="1915" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saleRequestWithInvalidCurrency -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:soapreq.thunes.P24Sale@235ecd9f]" started-at="2024-03-06T10:54:53 IST" name="tearDown" finished-at="2024-03-06T10:54:53 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=saleRequestWithInvalidCurrency status=SUCCESS method=P24Sale.saleRequestWithInvalidCurrency()[pri:0, instance:soapreq.thunes.P24Sale@235ecd9f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="saleRequestWithLongerFirstNameLength()[pri:0, instance:soapreq.thunes.P24Sale@235ecd9f]" started-at="2024-03-06T10:54:53 IST" name="saleRequestWithLongerFirstNameLength" finished-at="2024-03-06T10:54:54 IST" duration-ms="1553" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saleRequestWithLongerFirstNameLength -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:soapreq.thunes.P24Sale@235ecd9f]" started-at="2024-03-06T10:54:54 IST" name="tearDown" finished-at="2024-03-06T10:54:54 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=saleRequestWithLongerFirstNameLength status=SUCCESS method=P24Sale.saleRequestWithLongerFirstNameLength()[pri:0, instance:soapreq.thunes.P24Sale@235ecd9f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="saleRequestWithLongerPhoneNumberLength()[pri:0, instance:soapreq.thunes.P24Sale@235ecd9f]" started-at="2024-03-06T10:54:54 IST" name="saleRequestWithLongerPhoneNumberLength" finished-at="2024-03-06T10:54:56 IST" duration-ms="1299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saleRequestWithLongerPhoneNumberLength -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:soapreq.thunes.P24Sale@235ecd9f]" started-at="2024-03-06T10:54:56 IST" name="tearDown" finished-at="2024-03-06T10:54:56 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=saleRequestWithLongerPhoneNumberLength status=SUCCESS method=P24Sale.saleRequestWithLongerPhoneNumberLength()[pri:0, instance:soapreq.thunes.P24Sale@235ecd9f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="saleRequestWithNegativeAmount()[pri:0, instance:soapreq.thunes.P24Sale@235ecd9f]" started-at="2024-03-06T10:54:56 IST" name="saleRequestWithNegativeAmount" finished-at="2024-03-06T10:54:57 IST" duration-ms="1338" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saleRequestWithNegativeAmount -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:soapreq.thunes.P24Sale@235ecd9f]" started-at="2024-03-06T10:54:57 IST" name="tearDown" finished-at="2024-03-06T10:54:57 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=saleRequestWithNegativeAmount status=SUCCESS method=P24Sale.saleRequestWithNegativeAmount()[pri:0, instance:soapreq.thunes.P24Sale@235ecd9f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="saleRequestWithValidValues()[pri:0, instance:soapreq.thunes.P24Sale@235ecd9f]" started-at="2024-03-06T10:54:57 IST" name="saleRequestWithValidValues" finished-at="2024-03-06T10:54:59 IST" duration-ms="2485" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saleRequestWithValidValues -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:soapreq.thunes.P24Sale@235ecd9f]" started-at="2024-03-06T10:54:59 IST" name="tearDown" finished-at="2024-03-06T10:54:59 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=saleRequestWithValidValues status=SUCCESS method=P24Sale.saleRequestWithValidValues()[pri:0, instance:soapreq.thunes.P24Sale@235ecd9f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="quitSelenimDriver()[pri:0, instance:soapreq.thunes.P24Sale@235ecd9f]" started-at="2024-03-06T10:55:00 IST" name="quitSelenimDriver" finished-at="2024-03-06T10:55:00 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitSelenimDriver -->
+      </class> <!-- soapreq.thunes.P24Sale -->
+    </test> <!-- Sale -->
+  </suite> <!-- Suite -->
+</testng-results>

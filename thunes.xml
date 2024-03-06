@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+
+ <listeners>
+        <listener class-name="customlisteners.ListenerClass"/>
+ </listeners>
+
+   <test name="P24-Sale">
+     <classes>
+       <class name="soapreq.thunes.P24Sale"/>
+     </classes>
+   </test>
+
+    <test name="Oney-Session">
+        <classes>
+            <class name="soapreq.thunes.OneySession"/>
+        </classes>
+    </test>
+
+    <test name="Oney-Auth">
+        <classes>
+            <class name="soapreq.thunes.OneyAuth"/>
+        </classes>
+    </test>
+
+</suite>
